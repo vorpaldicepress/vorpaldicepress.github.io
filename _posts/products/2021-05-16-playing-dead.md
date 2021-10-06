@@ -7,15 +7,15 @@ bundle: false
 bundle_products:
 product_type: Supplement
 tags:
-"  - Classes"
-"  - Subclasses"
-"  - Race"
-"  - Feats"
-"  - Items"
-"  - Spells"
-"  - Variants"
-"  - Undead"
-"  - Fantasy"
+  - "Classes"
+  - "Subclasses"
+  - "Race"
+  - "Feats"
+  - "Items"
+  - "Spells"
+  - "Variants"
+  - "Undead"
+  - "Fantasy"
 product_medal: Gold
 product_audience: Player
 product_license: Community Content Agreement
@@ -28,59 +28,59 @@ publisher_type: Collaboration
 publisher_name: Vorpal Dice Press
 product_contributors:
   Authors: 
-	  - Steve Fidler
-	  - Alex Tanner
-	  - Andrew T. Ha (LeukuDnD)
-	  - BornToDoStuff
-	  - Caitlin Bradbury (NotTheSmoooze)
-	  - Elias Garoufalias (Aevilok)
-	  - heavyarms
-	  - Israel Moreira
-	  - Proph
-	  - Rain-Junkie
-	  - Ryan Miller
-	  - Ryan Rose (flashpointbrews)
-	  - Yorviing
+    - Steve Fidler
+    - Alex Tanner
+    - Andrew T. Ha (LeukuDnD)
+    - BornToDoStuff
+    - Caitlin Bradbury (NotTheSmoooze)
+    - Elias Garoufalias (Aevilok)
+    - heavyarms
+    - Israel Moreira
+    - Proph
+    - Rain-Junkie
+    - Ryan Miller
+    - Ryan Rose (flashpointbrews)
+    - Yorviing
   Artists: 
-	  - artofblake
-	  - b-design
-	  - Daniele Ariuolo
-	  - David Lewis Johnson
-	  - Dean Spencer
-	  - freshidea
-	  - J. Laporterie
-	  - Jeremy Mohler
-	  - Jeshields
-	  - Konstantin Gerasimov
-	  - korkin
-	  - kuco
-	  - likozor
-	  - Luigi Castellani
-	  - Maciej Zagorski
-	  - Nathan Winburn
-	  - oldstores
-	  - Ronald D. Smite
-	  - S Trent Troop
-	  - warmtail
+    - artofblake
+    - b-design
+    - Daniele Ariuolo
+    - David Lewis Johnson
+    - Dean Spencer
+    - freshidea
+    - J. Laporterie
+    - Jeremy Mohler
+    - Jeshields
+    - Konstantin Gerasimov
+    - korkin
+    - kuco
+    - likozor
+    - Luigi Castellani
+    - Maciej Zagorski
+    - Nathan Winburn
+    - oldstores
+    - Ronald D. Smite
+    - S Trent Troop
+    - warmtail
   Editor: 
-	  - Laura Hirsbrunner
+    - Laura Hirsbrunner
   Graphic Design: 
-	  - Steve Fidler
+    - Steve Fidler
 product_pagecount: 100
 product_print: true
 
 product_prices:
-	DMsGuild:14.95
-	Softcover:24.99
-	Softcover + PDF:39.94
+  DMsGuild:14.95
+  Softcover:24.99
+  Softcover + PDF:39.94
 product_sales:
-	DMsGuild:
-	Softcover:
-	Softcover + PDF:29.99
+  DMsGuild:
+  Softcover:
+  Softcover + PDF:29.99
 product_links:
-	DMsGuild:https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687
-	Softcover:https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687
-	Softcover + PDF:https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687
+  DMsGuild:https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687
+  Softcover:https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687
+  Softcover + PDF:https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687
 
 ---
 

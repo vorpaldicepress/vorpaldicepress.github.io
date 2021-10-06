@@ -7,12 +7,12 @@ bundle: false
 bundle_products:
 product_type: Supplement
 tags:
-"  - Forgotten Realms"
-"  - Calimshan"
-"  - Desert"
-"  - Fantasy"
-"  - Backgrounds"
-"  - Map"
+  - "Forgotten Realms"
+  - "Calimshan"
+  - "Desert"
+  - "Fantasy"
+  - "Backgrounds"
+  - "Map"
 product_medal: Silver
 product_audience: Player,Dungeon Master
 product_license: Community Content Agreement
@@ -25,27 +25,27 @@ publisher_type: Collaboration
 publisher_name: Dungeon Master's Guild
 product_contributors:
   Authors: 
-	  - M.T. Black
-	  - Bryan Holmes
-	  - Steven Pankotai
+    - M.T. Black
+    - Bryan Holmes
+    - Steven Pankotai
   Artists: 
-	  - Dean Spencer
-	  - Wizards of the Coast
-	  - Adobe Stock
-	  - Bob Greyvenstein
+    - Dean Spencer
+    - Wizards of the Coast
+    - Adobe Stock
+    - Bob Greyvenstein
   Editor: 
-	  - Stuart Broz
+    - Stuart Broz
   Graphic Design: 
-	  - Steve Fidler
+    - Steve Fidler
 product_pagecount: 25
 product_print: false
 
 product_prices:
-	DMsGuild:4.95
+  DMsGuild:4.95
 product_sales:
-	DMsGuild:
+  DMsGuild:
 product_links:
-	DMsGuild:https://www.dmsguild.com/product/350711/Player-Primer-Calimshan?affiliate_id=1713687
+  DMsGuild:https://www.dmsguild.com/product/350711/Player-Primer-Calimshan?affiliate_id=1713687
 
 ---
 

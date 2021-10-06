@@ -24,25 +24,33 @@ publisher_type: Collaboration
 publisher_name: Dungeon Masters Guild
 product_contributors:
   Authors: 
-  - Maxwell Zener
+    - Maxwell Zener
   Artists: 
-  - grandfailure
-  - Bruno Balixa
-  - Storn Cooke
-  - Wizards of the Coast
+    - grandfailure
+    - Bruno Balixa
+    - Storn Cooke
+    - Wizards of the Coast
   Editor: 
-  - Stuart Broz
+    - Stuart Broz
   Graphic Design: 
-  - Steve Fidler
+    - Steve Fidler
 product_pagecount: 22
 product_print: false
 
 product_prices:
+<<<<<<< HEAD
+  DMsGuild:4.95
+product_sales:
+  DMsGuild:
+product_links:
+  DMsGuild:https://www.dmsguild.com/product/350712/The-Prison-of-Lord-Jhakiz-A-Player-Primer-Adventure?affiliate_id=1713687
+=======
     DMsGuild:4.95
 product_sales:
     DMsGuild:
 product_links:
     DMsGuild:https://www.dmsguild.com/product/350712/The-Prison-of-Lord-Jhakiz-A-Player-Primer-Adventure?affiliate_id=1713687
+>>>>>>> ac65b165d060a9b141f6363f8856bcbaf37e015b
 
 ---
 

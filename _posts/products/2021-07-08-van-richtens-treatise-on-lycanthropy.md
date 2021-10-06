@@ -7,17 +7,17 @@ bundle: false
 bundle_products:
 product_type: Supplement
 tags:
-"  - Lycanthrope"
-"  - Werewolf"
-"  - Crocodile"
-"  - Van Richten"
-"  - Lycanthropy"
-"  - Fantasy"
-"  - Race"
-"  - Lineage"
-"  - Ancestry"
-"  - Culture"
-"  - Monsters"
+  - "Lycanthrope"
+  - "Werewolf"
+  - "Crocodile"
+  - "Van Richten"
+  - "Lycanthropy"
+  - "Fantasy"
+  - "Race"
+  - "Lineage"
+  - "Ancestry"
+  - "Culture"
+  - "Monsters"
 product_medal: Gold
 product_audience: Player,Dungeon Master
 product_license: Community Content Agreement
