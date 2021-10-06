@@ -7,11 +7,11 @@ bundle: false
 bundle_products:
 product_type: Adventure
 tags:
-"  - Calimshan"
-"  - Forgotten Realms"
-"  - Desert"
-"  - Fantasy"
-"  - Adventure"
+  - "Calimshan"
+  - "Forgotten Realms"
+  - "Desert"
+  - "Fantasy"
+  - "Adventure"
 product_medal: 
 product_audience: Dungeon Master
 product_license: Community Content Agreement
