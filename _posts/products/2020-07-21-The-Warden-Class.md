@@ -53,7 +53,6 @@ product_sales:
 product_links:
     DTRPG: https://www.drivethrurpg.com/product/317044/The-Warden-Class-5e?affiliate_id=1713687
     DTRPG Softcover: https://www.drivethrurpg.com/product/317044/The-Warden-Class-5e?affiliate_id=1713687
-    Review Test: https://vorpal.borntodostuff.com/review/Not-Front-Page/
 
 # anything below this triple dash is considered content and can be markup or html. It should be fully HTML compatible as long as your tags are formatted correctly.
 ---
