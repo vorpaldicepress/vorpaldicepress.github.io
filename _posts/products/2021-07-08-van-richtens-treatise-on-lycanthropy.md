@@ -54,11 +54,11 @@ product_pagecount: 154
 product_print: false
 
 product_prices:
-  DMsGuild:14.95
+  DMsGuild: 14.95
 product_sales:
   DMsGuild:
 product_links:
-  DMsGuild:https://www.dmsguild.com/product/363668/Van-Richtens-Treatise-on-Lycanthropy?affiliate_id=1713687
+  DMsGuild: https://www.dmsguild.com/product/363668/Van-Richtens-Treatise-on-Lycanthropy?affiliate_id=1713687
 
 ---
 

@@ -59,17 +59,17 @@ product_pagecount: 175
 product_print: true
 
 product_prices:
-  DMsGuild:19.95
-  Hardcover:54.95
-  Hardcover + PDF:74.90
+  DMsGuild: 19.95
+  Hardcover: 54.95
+  Hardcover + PDF: 74.90
 product_sales:
   DMsGuild:
   Hardcover:
-  Hardcover + PDF:57.45
+  Hardcover + PDF: 57.45
 product_links:
-  DMsGuild:https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687
-  Hardcover:https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687
-  Hardcover + PDF:https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687
+  DMsGuild: https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687
+  Hardcover: https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687
+  Hardcover + PDF: https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687
 
 ---
 

@@ -70,17 +70,17 @@ product_pagecount: 100
 product_print: true
 
 product_prices:
-  DMsGuild:14.95
-  Softcover:24.99
-  Softcover + PDF:39.94
+  DMsGuild: 14.95
+  Softcover: 24.99
+  Softcover + PDF: 39.94
 product_sales:
   DMsGuild:
   Softcover:
-  Softcover + PDF:29.99
+  Softcover + PDF: 29.99
 product_links:
-  DMsGuild:https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687
-  Softcover:https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687
-  Softcover + PDF:https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687
+  DMsGuild: https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687
+  Softcover: https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687
+  Softcover + PDF: https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687
 
 ---
 

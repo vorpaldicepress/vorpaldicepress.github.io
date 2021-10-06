@@ -41,11 +41,11 @@ product_pagecount: 25
 product_print: false
 
 product_prices:
-  DMsGuild:4.95
+  DMsGuild: 4.95
 product_sales:
   DMsGuild:
 product_links:
-  DMsGuild:https://www.dmsguild.com/product/350711/Player-Primer-Calimshan?affiliate_id=1713687
+  DMsGuild: https://www.dmsguild.com/product/350711/Player-Primer-Calimshan?affiliate_id=1713687
 
 ---
 
