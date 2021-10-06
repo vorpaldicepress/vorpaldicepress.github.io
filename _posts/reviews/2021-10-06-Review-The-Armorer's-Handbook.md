@@ -51,7 +51,7 @@ product_links:
 <img title="Blacksmith by Even Amundsen" src="/img/armorers_handbook_blacksmith_EVEN-AMUNDSEN.png" style="shape-margin: 1em; shape-image-threshold: .3;" />
 </div>
 
-# Summary
+## Summary
 
 The Armorer's Handbook by [@dmheavyarms](twitter) was a breakout success for the author—a clear demonstration of his expertise as a designer and producer of a polished product. It was an immediate hit and currently sits as one of the all time best-selling products at Dungeon Masters Guild.
 
@@ -62,8 +62,8 @@ In addition to this, which is enough material to warrant the purchase on its own
 The Rune Magic chapter also includes rules for crafting runestones, a detailed Runesmith's Guild which provides downtime activity goals for your players as well as potential story hooks for your campaign, and infusions for the Artificer class and a Runesmithing Adept feat to round it out.
 
 Lastly, the PDF is rounded out with an appendix where the lead designer explains their thought processes and answers frequently asked questions, justifies balance, and provides quick reference tables for the various upgrades and runes throughout the book.
-<br />
-# Thoughts
+
+## Thoughts
 
 Crafting systems in games are a fantastic **exploration** feature where players get the opportunity to interact with their equipment, mix and match options, and customize it to fit their character's themes or simply squeeze every last drop of efficiency out of the system. This is prevalent in popular video games such as The Witcher or The Elder Scrolls: Skyrim, and is notably missing from the popular table top game Dungeons & Dragons 5th Edition. Throughout the 3rd party and homebrew communities every designer it seems has their take on this system. However, I feel it is safe to say that The Armorer's Handbook is among the most popular and well liked and it's evident why.
 
