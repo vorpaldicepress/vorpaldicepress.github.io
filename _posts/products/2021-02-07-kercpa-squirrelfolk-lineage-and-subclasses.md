@@ -22,8 +22,8 @@ product_medal: Gold
 product_audience: Player
 product_license: Community Content Agreement
 
-product_feature_start: 
-product_feature_end: 
+product_feature_start: 2021-02-08
+product_feature_end: 2050-12-31
 
 product_image: https://www.dmsguild.com/images/8957/346272.png
 publisher_type: Collaboration
