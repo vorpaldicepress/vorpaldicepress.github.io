@@ -18,7 +18,7 @@ layout: default
           <button onclick="window.location.href = '{{ page.product_links[index] }}';" data-sale="{{ page.product_sales[index] }}">
             {{ index }}
 
-            {% if displayprice > 0 %}
+            {% if displayprice %}
               {% if page.product_sales[index] %}
                 {% if page.product_sales[index] != displayprice %}
                   : <span class="currency-usd" style="text-decoration:line-through">{{ displayprice }}</span>
@@ -32,7 +32,7 @@ layout: default
                 {% endif %}
               {% endif %}
             {% endif %}
-            
+
             <div class="wave-button">
               {% include waves.html %}
             </div>
