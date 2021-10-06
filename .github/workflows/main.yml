@@ -1,0 +1,21 @@
+name: Refresh
+
+on:
+  schedule:
+    - cron:  '0 5 * * *' # Runs every day at 5am UTC
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger GitHub pages rebuild
+        run: |
+          curl \
+            -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/pages/builds
+        #env:
+          # You must create a personal token with repo access as GitHub does
+          # not yet support server-to-server page builds.
+          #USER_TOKEN: ${{ secrets.USER_TOKEN }}
