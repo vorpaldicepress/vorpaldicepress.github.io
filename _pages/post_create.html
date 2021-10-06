@@ -536,11 +536,11 @@ product_pagecount: ${post.Pages}
 product_print: ${post.Print}
 
 product_prices:${ post.Locations[0] == "" ? "" : `${post.Prices.map((str, i) => `
-	${post.Locations[i]}:${post.Prices[i]}`).join("")}` }
+  ${post.Locations[i]}:${post.Prices[i]}`).join("")}` }
 product_sales:${ post.Locations[0] == "" ? "" : `${post.Sales.map((str, i) => `
-	${post.Locations[i]}:${post.Sales[i]}`).join("")}` }
+  ${post.Locations[i]}:${post.Sales[i]}`).join("")}` }
 product_links:${ post.Locations[0] == "" ? "" : `${post.Links.map((str, i) => `
-	${post.Locations[i]}:${post.Links[i]}`).join("")}` }
+  ${post.Locations[i]}:${post.Links[i]}`).join("")}` }
 
 ---
 
