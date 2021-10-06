@@ -20,8 +20,8 @@ product_audience:
 product_license: Community Content Agreement
 
 # beginning and end of the product feature. This will only work if the site is updated within several weeks of when the feature is supposed to happen. Making a new post counts as updating.
-product_feature_start: 
-product_feature_end: 
+product_feature_start: 2020-09-21
+product_feature_end: 2050-12-31
 # this can also be a link to an image you upload to the site. If it is, it must start with a "/" or be a full link
 product_image: https://www.dmsguild.com/images/8957/329253.png
 publisher_type: Self
@@ -55,7 +55,7 @@ product_sales:
 
 # direct link to the product by location
 product_links:
-    DMsGuild: https://www.dmsguild.com/browse.php?discount=9bdaf53373&affiliate_id=1713687
+    DMsGuild: https://www.dmsguild.com/product/329253/Mythic-Eberron?affiliate_id=1713687
 
 # anything below this triple dash is considered content and can be markup or html. It should be fully HTML compatible as long as your tags are formatted correctly.
 ---

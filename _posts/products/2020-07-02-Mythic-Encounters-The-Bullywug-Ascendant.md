@@ -41,7 +41,7 @@ product_sales:
 
 # direct link to the product by location
 product_links:
-    DMsGuild: https://www.dmsguild.com/browse.php?discount=9c03c0a29e&affiliate_id=1713687
+    DMsGuild: https://www.dmsguild.com/product/319337/Mythic-Encounters-The-Bullywug-Ascendant?affiliate_id=1713687
 
 # anything below this triple dash is considered content and can be markup or html. It should be fully HTML compatible as long as your tags are formatted correctly.
 ---
