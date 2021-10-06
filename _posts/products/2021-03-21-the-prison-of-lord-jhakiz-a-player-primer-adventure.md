@@ -24,16 +24,16 @@ publisher_type: Collaboration
 publisher_name: Dungeon Masters Guild
 product_contributors:
   Authors: 
-	  - Maxwell Zener
+  - Maxwell Zener
   Artists: 
-	  - grandfailure
-	  - Bruno Balixa
-	  - Storn Cooke
-	  - Wizards of the Coast
+  - grandfailure
+  - Bruno Balixa
+  - Storn Cooke
+  - Wizards of the Coast
   Editor: 
-	  - Stuart Broz
+  - Stuart Broz
   Graphic Design: 
-	  - Steve Fidler
+  - Steve Fidler
 product_pagecount: 22
 product_print: false
 
