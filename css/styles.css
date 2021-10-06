@@ -360,9 +360,12 @@ main {
   max-height: 300px;
 }
 
-.review-content > a:first-child {
-  text-decoration: none;
-}
+  .review-content > a:first-child {
+    text-decoration: none;
+  }
+  /*.review-content img {
+    display: none!important;
+  }*/
 
 /*****       *****/
 /***** BLOGS *****/
@@ -419,9 +422,12 @@ main {
     overflow: hidden;
 }
 
-.blog-content > a:first-child {
-  text-decoration: none;
-}
+  .blog-content > a:first-child {
+    text-decoration: none;
+  }
+  /*.blog-content img {
+    display: none!important;
+  }*/
 
 /*****        *****/
 /***** FOOTER *****/
