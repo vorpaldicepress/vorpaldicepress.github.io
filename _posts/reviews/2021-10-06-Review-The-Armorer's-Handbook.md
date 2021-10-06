@@ -51,9 +51,7 @@ product_links:
 <img title="Blacksmith by Even Amundsen" src="/img/armorers_handbook_blacksmith_EVEN-AMUNDSEN.png" style="shape-margin: 1em; shape-image-threshold: .3;" />
 </div>
 
-## Summary
-
-The Armorer's Handbook by [@dmheavyarms](twitter) was a breakout success for the author—a clear demonstration of his expertise as a designer and producer of a polished product. It was an immediate hit and currently sits as one of the all time best-selling products at Dungeon Masters Guild.
+The Armorer's Handbook by [@dmheavyarms](https://twitter.com/DMheavyarms) was a breakout success for the author—a clear demonstration of his expertise as a designer and producer of a polished product. It was an immediate hit and currently sits as one of the all time best-selling products at Dungeon Masters Guild.
 
 This short but dense 28-page supplement provides an easily referenced and quick system to improve and alter your basic weapons and armor. Such upgrades include modifying the armor by proofing, which grants its wearer a small damage threshold for nonmagical slashing damage, or burnishing it to a mirror finish to impress yourself upon others by way of advantage on Charisma-based checks. You can also craft special ammunition such as the *berserk dart* or *bodkin arrows* designed to penetrate plate and mail armor. These upgrades also include a variety of different materials such as cold iron, shadowsilk, and dragonhide; as well as optional rules for wear and repair on equipment.
 
@@ -78,3 +76,13 @@ Personally as a Dungeon Master, I am particularly stingy on magic item rewards y
 I'm also very interested in simply adding the equipment customization properties to equipment the party finds in their travels. 
 
 All in all, for a price tag of $9.95, there really is no reason to be on the fence about this product unless you have absolutely no use for crafting in your games.
+
+You can find dmheavyarms here:
+
+**twitter**: ([@dmheavyarms](https://twitter.com/dmheavyarms) 
+
+**patreon**: [heavyarms](https://www.patreon.com/heavyarms)
+
+**discord**: [Heavy's Hall of Heroes](https://discord.com/invite/jy4GuXs)
+
+and on his **website**: [heavyarms.com](https://www.heavyarms.com/) where you can purchase the **Gunslinger** class for Dungeons & Dragons 5th Edition!
