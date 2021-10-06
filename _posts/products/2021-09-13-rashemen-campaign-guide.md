@@ -7,19 +7,19 @@ bundle: false
 bundle_products:
 product_type: Supplement
 tags:
-"  - Forgotten Realms"
-"  - Rashemen"
-"  - Campaign"
-"  - Class"
-"  - Witch"
-"  - Subclasses"
-"  - Race"
-"  - Ancestry"
-"  - Lineage"
-"  - Monsters"
-"  - Spells"
-"  - Items"
-"  - Fantasy"
+  - "Forgotten Realms"
+  - "Rashemen"
+  - "Campaign"
+  - "Class"
+  - "Witch"
+  - "Subclasses"
+  - "Race"
+  - "Ancestry"
+  - "Lineage"
+  - "Monsters"
+  - "Spells"
+  - "Items"
+  - "Fantasy"
 product_medal: Silver
 product_audience: Dungeon Master,Player
 product_license: Community Content Agreement
@@ -32,44 +32,44 @@ publisher_type: Collaboration
 publisher_name: Dungeon Masters Guild
 product_contributors:
   Authors: 
-	  - Joe Raso
-	  - Andrew Bishkinskyi
-	  - Blaise Wigglesworth
-	  - Bryan Holmes
-	  - Ed Greenwood
-	  - Emily Harmon
-	  - Florian Emmerich
-	  - Jean Lorber
-	  - Karl Resch
-	  - Lydia Van Hoy
-	  - Steve Fidler
-	  - V.J. Harris
+    - Joe Raso
+    - Andrew Bishkinskyi
+    - Blaise Wigglesworth
+    - Bryan Holmes
+    - Ed Greenwood
+    - Emily Harmon
+    - Florian Emmerich
+    - Jean Lorber
+    - Karl Resch
+    - Lydia Van Hoy
+    - Steve Fidler
+    - V.J. Harris
   Artists: 
-	  - Nastya Lehn
-	  - Brian Patterson
-	  - Joe Raso
-	  - John Latta
-	  - Paul Paloma
-	  - Petar Penev
+    - Nastya Lehn
+    - Brian Patterson
+    - Joe Raso
+    - John Latta
+    - Paul Paloma
+    - Petar Penev
   Editor: 
-	  - Christopher Walz
+    - Christopher Walz
   Graphic Design: 
-	  - Joe Raso
+    - Joe Raso
 product_pagecount: 175
 product_print: true
 
 product_prices:
-	DMsGuild:19.95
-	Hardcover:54.95
-	Hardcover + PDF:74.90
+  DMsGuild:19.95
+  Hardcover:54.95
+  Hardcover + PDF:74.90
 product_sales:
-	DMsGuild:
-	Hardcover:
-	Hardcover + PDF:57.45
+  DMsGuild:
+  Hardcover:
+  Hardcover + PDF:57.45
 product_links:
-	DMsGuild:https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687
-	Hardcover:https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687
-	Hardcover + PDF:https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687
+  DMsGuild:https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687
+  Hardcover:https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687
+  Hardcover + PDF:https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687
 
 ---
 

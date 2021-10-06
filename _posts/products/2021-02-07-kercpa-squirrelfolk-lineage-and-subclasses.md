@@ -7,17 +7,17 @@ bundle: false
 bundle_products:
 product_type: Race
 tags:
-"  - Race"
-"  - Lineage"
-"  - Ancestry"
-"  - Culture"
-"  - Anthromorph"
-"  - Forgotten Realms"
-"  - Fantasy"
-"  - Squirrel"
-"  - Item"
-"  - Rogue"
-"  - Barbarian"
+  - "Race"
+  - "Lineage"
+  - "Ancestry"
+  - "Culture"
+  - "Anthromorph"
+  - "Forgotten Realms"
+  - "Fantasy"
+  - "Squirrel"
+  - "Item"
+  - "Rogue"
+  - "Barbarian"
 product_medal: Gold
 product_audience: Player
 product_license: Community Content Agreement
@@ -30,25 +30,25 @@ publisher_type: Collaboration
 publisher_name: Dungeon Master's Guild
 product_contributors:
   Authors: 
-	  - Steve Fidler
-	  - Nathanaël Roux
+    - Steve Fidler
+    - Nathanaël Roux
   Artists: 
-	  - Nathanaël Roux
-	  - Ruslan
-	  - LiliGraphie
+    - Nathanaël Roux
+    - Ruslan
+    - LiliGraphie
   Editor: 
-	  - E. R. F. Jordan
+    - E. R. F. Jordan
   Graphic Design: 
-	  - Nathanaël Roux
+    - Nathanaël Roux
 product_pagecount: 11
 product_print: false
 
 product_prices:
-	DMsGuild:4.95
+  DMsGuild:4.95
 product_sales:
-	DMsGuild:
+  DMsGuild:
 product_links:
-	DMsGuild:https://www.dmsguild.com/browse.php?discount=9964f129c0&affiliate_id=1713687
+  DMsGuild:https://www.dmsguild.com/browse.php?discount=9964f129c0&affiliate_id=1713687
 
 ---
 
