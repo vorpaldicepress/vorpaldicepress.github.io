@@ -48,9 +48,9 @@ product_links:
 ---
 
 <div style="float: right; width: 20%; height: auto; shape-outside: url('../img/reviews/armorers_handbook_blacksmith_EVEN-AMUNDSEN.png');">
-	<img title="Blacksmith by Even Amundsen" src="../img/reviews/armorers_handbook_blacksmith_EVEN-AMUNDSEN.png" style="shape-margin: 1em; shape-image-threshold: .3;" />
-	<br />
-	<center>artist: Even Amundsen</center>
+<img title="Blacksmith by Even Amundsen" src="../img/reviews/armorers_handbook_blacksmith_EVEN-AMUNDSEN.png" style="shape-margin: 1em; shape-image-threshold: .3;" />
+<br />
+<center>artist: Even Amundsen</center>
 </div>
 
 # Summary
