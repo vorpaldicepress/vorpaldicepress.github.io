@@ -3,9 +3,9 @@ name: Vorpal Dice Press
 logo: /img/svg/VDP.svg
 logo_simple: /img/svg/VDP-solo.svg
 # description of the site for metadata. Visible in things like google searches and hotlinks. Should be very short.
-description_meta: Test site for Vorpal Dice Press
+description_meta: Vorpal Dice Press
 # Site description for the footer, and any other places its displayed
-description: Suspendisse pulvinar porta dapibus. Phasellus posuere diam cursus aliquet gravida. Nulla est sapien, laoreet non metus et, molestie dignissim felis. Curabitur laoreet nisi sapien, eu malesuada augue volutpat sed.
+description: Get the best 3rd party content for Dungeons & Dragons 5th Edition here!
 # Your name/username
 author: Steve Fidler
 
@@ -15,7 +15,7 @@ facebook: vorpaldicepress
 twitter: vorpaldicepress
 
 # Your website URL. Used for Sitemap.xml and your RSS feed
-url: https://vorpal.borntodostuff.com
+url: https://vorpaldicepress.com
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics:
 # Put the number portion of your DmsGuild affiliate link here if you have one
