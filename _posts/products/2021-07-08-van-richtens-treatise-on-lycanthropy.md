@@ -70,16 +70,16 @@ Werebeasts beware! _Van Richten's Treatise on Lycanthropy _revolutionizes the 
 
 **New Player Options.** Was your character infected with lycanthropy or born with the affliction? With a new ancestry option, and five racial feats, you can kit out your own true lycanthrope PC.
 
-**New Werebeast Phenotypes. **Face the ravenous werecrocodile or battle the dreaded werewalrus! This supplement features six new lycanthrope phenotypes, in addition to the werebat and wereraven of other official sources. _Van Richten's _adds werecats (lions, cheetahs, and jaguars, oh my), werecrocodiles, werefoxes, werehyenas, wereserpents, weresharks, and, of course, werewalruses.
+**New Werebeast Phenotypes.** Face the ravenous werecrocodile or battle the dreaded werewalrus! This supplement features six new lycanthrope phenotypes, in addition to the werebat and wereraven of other official sources. *Van Richten's* adds werecats (lions, cheetahs, and jaguars, oh my), werecrocodiles, werefoxes, werehyenas, wereserpents, weresharks, and, of course, werewalruses.
 
-**New Werebeast Statistics. **Bored of a mere werewolf? With over thirty variant statbolcks, you can hurl werewolf alphas, wererat masterminds, and more at your players. However, no werebeast is as fearsome as the apex—a lycanthrope of legendary strength and resilience, born out of dark and unnatural means. Of these terrifying beasts, the CR 15 Werewolf Apex reigns supreme.
+**New Werebeast Statistics.** Bored of a mere werewolf? With over thirty variant statbolcks, you can hurl werewolf alphas, wererat masterminds, and more at your players. However, no werebeast is as fearsome as the apex—a lycanthrope of legendary strength and resilience, born out of dark and unnatural means. Of these terrifying beasts, the CR 15 Werewolf Apex reigns supreme.
 
-**New Items. **Five new magic items and a litany of other tools that no lycanthrope hunter should leave home without!
+**New Items.** Five new magic items and a litany of other tools that no lycanthrope hunter should leave home without!
 
 **Patreon**: https://www.patreon.com/wyatttrull  
 **Website:** https://wyatttrull.com/  
 **Discord: **https://discord.gg/FF3fKr7V4f  
 **Twitter:** https://twitter.com/Wyatt_Trull  
-**Instagram: **https://www.instagram.com/wyatttrullpresents/  
+**Instagram:** https://www.instagram.com/wyatttrullpresents/  
 **Facebook:** https://www.facebook.com/WyattTrullPresents  
 **Ko-Fi:** https://ko-fi.com/wyatttrull
