@@ -38,11 +38,11 @@ product_pagecount: 22
 product_print: false
 
 product_prices:
-	DMsGuild:4.95
+    DMsGuild:4.95
 product_sales:
-	DMsGuild:
+    DMsGuild:
 product_links:
-	DMsGuild:https://www.dmsguild.com/product/350712/The-Prison-of-Lord-Jhakiz-A-Player-Primer-Adventure?affiliate_id=1713687
+    DMsGuild:https://www.dmsguild.com/product/350712/The-Prison-of-Lord-Jhakiz-A-Player-Primer-Adventure?affiliate_id=1713687
 
 ---
 
