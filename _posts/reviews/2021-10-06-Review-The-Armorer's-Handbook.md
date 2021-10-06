@@ -49,8 +49,6 @@ product_links:
 
 <div style="float: right; shape-outside: url('/img/armorers_handbook_blacksmith_EVEN-AMUNDSEN.png');">
 <img title="Blacksmith by Even Amundsen" src="/img/armorers_handbook_blacksmith_EVEN-AMUNDSEN.png" style="shape-margin: 1em; shape-image-threshold: .3;" />
-<br />
-<center>artist: Even Amundsen</center>
 </div>
 
 # Summary
