@@ -512,7 +512,7 @@ bundle_products:${post.BundleProducts[0] == "" ? "" : post.BundleProducts.map((s
 ${bullet + str}`).join("")}
 product_type: ${post.Type}
 tags:${post.Tags[0] == "" ? "" : post.Tags.map((str, i) => `
-"${bullet + str}"`).join("")}
+${bullet}"${str}"`).join("")}
 product_medal: ${post.Medal}
 product_audience: ${post.Audience}
 product_license: ${post.License}
@@ -525,13 +525,13 @@ publisher_type: ${post.PublisherType}
 publisher_name: ${post.Publisher}
 product_contributors:${ post.Authors[0] == "" ? "" : `
   Authors: ${post.Authors.map((str, i) => `
-	${bullet + str}`).join("")}` }${ post.Artists[0] == "" ? "" : `
+${bullet + str}`).join("")}` }${ post.Artists[0] == "" ? "" : `
   Artists: ${post.Artists.map((str, i) => `
-	${bullet + str}`).join("")}` }${ post.Editors[0] == "" ? "" : `
+${bullet + str}`).join("")}` }${ post.Editors[0] == "" ? "" : `
   Editor: ${post.Editors.map((str, i) => `
-	${bullet + str}`).join("")}` }${ post.Graphics[0] == "" ? "" : `
+${bullet + str}`).join("")}` }${ post.Graphics[0] == "" ? "" : `
   Graphic Design: ${post.Graphics.map((str, i) => `
-	${bullet + str}`).join("")}` }
+${bullet + str}`).join("")}` }
 product_pagecount: ${post.Pages}
 product_print: ${post.Print}
 
