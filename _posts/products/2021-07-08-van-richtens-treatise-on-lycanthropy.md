@@ -30,35 +30,35 @@ publisher_type: Collaboration
 publisher_name: Dungeon Masters Guild
 product_contributors:
   Authors: 
-	  - Wyatt Trull
-	  - Vall Syrene
+    - Wyatt Trull
+    - Vall Syrene
   Artists: 
-	  - Molino Davide
-	  - Anastasiya
-	  - Андрій Берекеля
-	  - b-design
-	  - Bob Greyvenstein
-	  - Dean Spencer
-	  - Dominick
-	  - James Webster
-	  - Konstantin Gerasimov
-	  - Luigi Castellani
-	  - Quico Vicens Picatto
-	  - Wizards of the Coast
-	  - Vecteezy
+    - Molino Davide
+    - Anastasiya
+    - Андрій Берекеля
+    - b-design
+    - Bob Greyvenstein
+    - Dean Spencer
+    - Dominick
+    - James Webster
+    - Konstantin Gerasimov
+    - Luigi Castellani
+    - Quico Vicens Picatto
+    - Wizards of the Coast
+    - Vecteezy
   Editor: 
-	  - Laura Hirsbrunner
+    - Laura Hirsbrunner
   Graphic Design: 
-	  - Steve Fidler
+    - Steve Fidler
 product_pagecount: 154
 product_print: false
 
 product_prices:
-	DMsGuild:14.95
+  DMsGuild:14.95
 product_sales:
-	DMsGuild:
+  DMsGuild:
 product_links:
-	DMsGuild:https://www.dmsguild.com/product/363668/Van-Richtens-Treatise-on-Lycanthropy?affiliate_id=1713687
+  DMsGuild:https://www.dmsguild.com/product/363668/Van-Richtens-Treatise-on-Lycanthropy?affiliate_id=1713687
 
 ---
 
