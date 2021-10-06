@@ -1,0 +1,25 @@
+---
+title: Blog
+public: true
+order: 3
+layout: default
+---
+
+{% for post in site.categories.blogs %}
+{% unless post.categories contains "drafts" %}
+  <div class="blog">
+    <div class="width-wrapper">
+      <div class="blog-content">
+        <a href="{{ post.url }}"><h2 class="compact">{{ post.title }}</h2></a>
+        <p class="subtle subtitle">{{ post.date | date: '%B %d, %Y' }}</p>
+
+        {{ post.content }}
+      </div>
+      <div class="read-more">
+        <div></div>
+        <div><a href="{{ post.url }}">Read More...</a></div>
+      </div>
+    </div>
+  </div>
+{% endunless %}
+{% endfor %}

@@ -1,0 +1,27 @@
+---
+title: Products
+public: true
+order: 1
+layout: default
+---
+
+{% include featured_section.html %}
+
+<section id="products_all">
+  <div class="width-wrapper">
+    {% for post in site.categories.products %}
+    {% unless post.categories contains "drafts" %}
+    <div class="product" data-start="{{ feature_start }}" data-feature-end="{{ feature_end }}">
+      <a href="{{ post.url }}"><img src="{{ post.product_image }}" alt="{{ post.title }}" /></a>
+      <div class="description">
+        <a href="{{ post.url }}">
+          <h3 class="compact">{{ post.title }}</h3>
+        </a>
+        <p>{{ post.tagline }}</p>
+      </div>
+
+    </div>
+    {% endunless %}
+    {% endfor %}
+  </div>
+</section>

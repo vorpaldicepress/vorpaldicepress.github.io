@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<div class="width-wrapper">
+  <section id="product">
+    <section id="product_title">
+      <h1 class="compact">{{ page.title }}</h1>
+      <p class="subtle" style="font-weight: bold">{{ page.date | date: '%B %d, %Y' }}</p>
+      <hr />
+    </section>
+    <section id="product_image">
+      <img src="{{ page.review_image }}" />
+      <br />
+      <br />
+        {% for price in page.product_prices %}
+          {% assign index = price[0] %}
+          {% assign displayprice = price[1] %}
+          <button onclick="window.location.href = '{{ page.product_links[index] }}';" data-sale="{{ page.product_sales[index] }}">
+            {{ index }}:
+            {% if page.product_sales[index] %}
+              {% if page.product_sales[index] != displayprice %}
+                <span class="currency-usd" style="text-decoration:line-through">{{ displayprice }}</span>
+                <span class="currency-usd" style="color:#ff2b38">{{ page.product_sales[index] }}</span>
+              {% endif %}
+            {% else %}
+              {% if displayprice == 0 %}
+                <span>Free</span>
+              {% else %}
+                <span class="currency-usd">{{ displayprice }}</span>
+              {% endif %}
+            {% endif %}
+            <div class="wave-button">
+              {% include waves.html %}
+            </div>
+          </button>
+        {% endfor %}
+        <hr />
+    </section>
+    <section id="product_description">
+      {{content}}
+    </section>
+    <section id="product_details">
+      {% for contributor_type in page.product_contributors %}
+        <p><span style="font-weight: bold">{{ contributor_type[0] }}:</span> {{ contributor_type[1] | array_to_sentence_string }}</p>
+      {% endfor %}
+      <hr />
+      <div>
+        {% for tag in page.tags %}
+          <div class="tag">{{tag}}</div>
+        {% endfor %}
+      </div>
+    </section>
+  </section>
+</div>

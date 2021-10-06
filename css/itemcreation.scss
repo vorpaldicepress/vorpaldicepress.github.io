@@ -1,0 +1,113 @@
+---
+---
+/*CSS for item creation page*/
+@import "reset";
+@import "variables";
+@import "bootstrap";
+
+.btn-toolbar {
+	margin-bottom: 5px;
+}
+
+.btn-group .btn {
+	border: 1px solid #cccccc;
+	border-bottom-color: #b3b3b3;
+}
+
+.btn-group .btn.active {
+	background-color: #5bc0de;
+	color: white;
+}
+
+.btn.btn-info {
+	background-image: none;
+	text-shadow: none;
+	box-shadow: none;
+	background-color: #5bc0de;
+}
+
+.btn.ql-active {
+	background: #e8e8e8;
+	color: #2f618e;
+}
+
+.input-group[class*=col-] {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.editor {
+	overflow-y: scroll;
+	height: 335px;
+	max-height: 335px;
+}
+
+.editor blockquote {
+	font-size: 1em;
+}
+
+magic-spell {
+	/*font-weight: 600;*/
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+.nodisplay {
+	display: none;
+}
+
+#item-classes li {
+	display: none;
+}
+
+#item-classes li.item-class {
+	display: block;
+}
+
+.panel {
+	min-height: 280px;
+}
+
+.ql-clipboard {
+	position: absolute;
+	left: 10000px;
+}
+
+.ql-editor {
+	overflow-y: scroll;
+	height: 383px;
+	max-height: 383px;
+}
+
+.ql-editor.large {
+	height: 90vh;
+	max-height: none;
+	outline: none;
+	box-shadow: none;
+	border: 1px solid #eeeeee;
+}
+
+#editor-container.large {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	background: white;
+	border: 1px solid #cccccc;
+	padding: 10px;
+	z-index: 100;
+	top: 0px;
+	left: 0px;
+}
+
+#editor-container p:empty:not(:focus)::before {
+  content: attr(data-placeholder);
+}
+
+section[class="curse"], div[class="curse"] {
+	background-color: lightgray;
+	padding-top: 10px;
+}
+
+p {
+	margin: 0 0 3px;
+}

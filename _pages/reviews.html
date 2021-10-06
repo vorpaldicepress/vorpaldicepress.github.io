@@ -1,0 +1,35 @@
+---
+title: Reviews
+public: true
+order: 2
+layout: default
+---
+
+{% for post in site.categories.reviews %}
+{% unless post.categories contains "drafts" %}
+  {% if post.product_image_anchor == "center" %}
+    {% assign align = "center" %}
+  {% elsif post.product_image_anchor == "bottom" %}
+    {% assign align = "flex-end" %}
+  {% else %}
+    {% assign align = "flex-start" %}
+  {% endif %}
+  <div class="review">
+    <div class="width-wrapper">
+      <div class="review-wrapper">
+        <div class="review-image"><a style="align-items:{{ align }}" href="{{ post.url }}"><img src="{{ post.review_image }}" /></a></div>
+        <div class="review-content">
+          <a href="{{ post.url }}"><h2 class="compact">{{ post.title }}</h2></a>
+          <p class="subtle subtitle">{{ post.date | date: '%B %d, %Y' }}</p>
+
+          {{ post.content }}
+        </div>
+      </div>
+      <div class="read-more">
+        <div></div>
+        <div><a href="{{ post.url }}">Read More...</a></div>
+      </div>
+    </div>
+  </div>
+{% endunless %}
+{% endfor %}

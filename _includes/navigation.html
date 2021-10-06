@@ -1,0 +1,28 @@
+<nav>
+  <div class="width-wrapper">
+    <div id="logo">
+      <a href="/">
+        <img class="site-logo" src="{{ site.logo }}" />
+        <span>{{ site.name }}</span>
+      </a>
+    </div>
+    {% assign ordered_pages = site.pages | sort: "order" | where_exp:"item","item.public == true" %}
+    {% for page in ordered_pages %}
+      <div data-order="{{ page.order }}"><a href="{{ page.url }}">{{ page.title }}</a></div>
+    {% endfor %}
+  </div>
+  <div class="rule infinite"></div>
+</nav>
+<section id="search">
+  <div class="width-wrapper">
+    <div style="position: relative; display: block;">
+      <div id="search_container">
+        <form role="search" id="search_form" method="get">
+          <input type="search" id="search_field" name="q" autocomplete="off" placeholder="Search Vorpal Dice Press" />
+          <button id="search_button" type="submit">Search</button>
+        </form>
+        <div id="search_results"></div>
+      </div>
+    </div>
+  </div>
+</section>

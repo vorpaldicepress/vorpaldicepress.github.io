@@ -1,0 +1,20 @@
+<section id="blogs">
+  <div class="width-wrapper">
+    {% for post in site.categories.blogs limit: site.blog_limit %}
+    {% unless post.categories contains "drafts" %}
+      <div class="blog">
+        <div class="blog-content">
+          <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+          <p class="subtle subtitle">{{ post.date | date: '%B %d, %Y' }}</p>
+
+          {{ post.content }}
+        </div>
+        <div class="read-more">
+          <div></div>
+          <div><a href="{{ post.url }}">Read More...</a></div>
+        </div>
+      </div>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</section>

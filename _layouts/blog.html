@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="width-wrapper">
+  <div class="page-contents">
+    <input type="hidden" value="blog" />
+    <h1 class="compact">{{ page.title }}</h1>
+    <p class="subtle" style="font-weight: bold">{{ page.date | date: '%B %d, %Y' }}</p>
+    <hr />
+    <br />
+
+    {{content}}
+  </div>
+</div>

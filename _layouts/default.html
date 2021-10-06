@@ -1,0 +1,73 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  {% if page.categories contains "drafts" %}
+  <title>{{ page.title }} – DRAFT</title>
+  {% else %}
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+  {% endif %}
+  {% include meta.html %}
+  {% include analytics.html %}
+
+  <link rel="stylesheet" href="https://use.typekit.net/dju0ivp.css"> <!-- adobe fonts -->
+  <link rel="stylesheet" type="text/css" href="/slick/slick.css?v=1.2" />
+  <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css?v=1.3.9" />
+  <link rel="stylesheet" type="text/css" href="/css/styles.css?v=1.5.2">
+
+  <style>
+    :root {
+      color-scheme: light;
+      supported-color-schemes: light;
+    }
+  </style>
+</head>
+
+<body class="preload">
+  <div id="wrapper">
+    {% include navigation.html %}
+    <div id="search-results"></div>
+    <main>
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/slick/slick.min.js"></script>
+  <script type="text/javascript" src="/js/scripts.js"></script>
+
+  {% if page.categories contains "products" or page.categories contains "reviews" %}
+    <script type="text/javascript">
+      $('.currency-usd').each(function() {
+          var monetary_value = $(this).text();
+          var i = new Intl.NumberFormat('en-US', {
+              style: 'currency',
+              currency: 'USD'
+          }).format(monetary_value);
+          $(this).text(i);
+      });
+
+      $(window).on("load", function() {
+        let productWrapper = $('#product');
+        let product_title = $('#product_title');
+        let product_image = $('#product_image');
+        let product_description = $('#product_description');
+        let product_details = $('#product_details');
+
+        var col1_height = product_details.outerHeight(true) + product_image.outerHeight(true);
+        var col2_height = product_description.outerHeight(true) + product_title.outerHeight(true);
+
+        productWrapper.height(Math.max(col1_height, col2_height) + 25);
+
+        $(window).resize(function() {
+          col1_height = product_details.outerHeight(true) + product_image.outerHeight(true);
+          col2_height = product_description.outerHeight(true) + product_title.outerHeight(true);
+
+          productWrapper.height(Math.max(col1_height, col2_height) + 25);
+        });
+    });
+    </script>
+  {% endif %}
+</body>
+</html>

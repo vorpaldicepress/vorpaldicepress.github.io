@@ -1,0 +1,45 @@
+<footer>
+  {% if site.logo_simple %}
+    <img class="site-logo" src="{{ site.logo_simple }}" />
+  {% elsif site.logo %}
+    <img class="site-logo" src="{{ site.logo }}" />
+  {% endif %}
+  <div class="wave-container">
+    {% include waves.html %}
+  </div>
+  <div id="footer-content">
+    <div class="width-wrapper">
+      <div>
+        <h3>About</h3>
+        <span>
+          {{ site.description }}
+        </span>
+      </div>
+      <div>
+        <h3>Pages</h3>
+          <a href="/">Home</a>
+          {% assign ordered_pages = site.pages | sort: "order" | where_exp:"item","item.public == true" %}
+          {% for page in ordered_pages %}
+            <a data-order="{{ page.order }}" href="{{ page.url }}">{{ page.title }}</a>
+          {% endfor %}
+            <a data-order="99" href="/resume/">Resume</a>
+      </div>
+      <div>
+        <h3>Socials</h3>
+        {% if site.facebook %}<a href="https://www.facebook.com/{{ site.facebook }}"><img src="/img/svg/facebook.svg" /> <span>Facebook</span></a>{% endif %}
+        {% if site.twitter %}<a href="https://twitter.com/{{ site.twitter }}"><img src="/img/svg/twitter.svg" /> <span>Twitter</span></a>{% endif %}
+        {% if site.email and site.email contains "@" %}
+          {% assign email = site.email | split: "@" %}
+          <script>
+            user = "{{ email[0] }}";
+            domain = "{{ email[1] }}";
+            document.write('<a href=\"mailto:' + user + '@' + domain + '\"><img src="/img/svg/email.svg" /> <span>Email</span></a>');
+          </script>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  <div id="footer-footer">
+    <small>Copyright &copy; {{ site.time | date: "%Y" }}, {{ site.name }} &emsp;|&emsp; Website designed and coded by BornToDoStuff</small>
+  </div>
+</footer>

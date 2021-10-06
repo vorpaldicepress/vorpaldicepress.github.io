@@ -1,0 +1,93 @@
+---
+layout: default
+---
+<div class="width-wrapper">
+  <section id="product">
+    <section id="product_title">
+      <h1 class="compact">{{ page.title }}</h1>
+      <p class="subtle" style="font-weight: bold">{{ page.publisher_name }}</p>
+      <hr />
+    </section>
+    <section id="product_image">
+      <img src="{{ page.product_image }}" />
+      <br />
+      <br />
+        {% for price in page.product_prices %}
+          {% assign index = price[0] %}
+          {% assign displayprice = price[1] %}
+          <button onclick="window.location.href = '{{ page.product_links[index] }}';" data-sale="{{ page.product_sales[index] }}">
+            {{ index }}:
+            {% if page.product_sales[index] %}
+              {% if page.product_sales[index] != displayprice %}
+                <span class="currency-usd" style="text-decoration:line-through">{{ displayprice }}</span>
+                <span class="currency-usd" style="color:#ff2b38">{{ page.product_sales[index] }}</span>
+              {% endif %}
+            {% else %}
+              {% if displayprice == 0 %}
+                <span>Free</span>
+              {% else %}
+                <span class="currency-usd">{{ displayprice }}</span>
+              {% endif %}
+            {% endif %}
+            <div class="wave-button">
+              {% include waves.html %}
+            </div>
+          </button>
+        {% endfor %}
+        <hr />
+    </section>
+    <section id="product_description">
+      {{content}}
+    </section>
+    <section id="product_details">
+      <p><span style="font-weight: bold">Date Published:</span> {{ page.date | date: '%B %d, %Y' }}</p>
+      <p><span style="font-weight: bold">Last Modified:</span> {{ page.last_modified_at | default: page.date | date: '%B %d, %Y'}}</p>
+      {% for contributor_type in page.product_contributors %}
+        <p><span style="font-weight: bold">{{ contributor_type[0] }}:</span> {{ contributor_type[1] | array_to_sentence_string }}</p>
+      {% endfor %}
+      <hr />
+      <div>
+        {% for tag in page.tags %}
+          <div class="tag">{{tag}}</div>
+        {% endfor %}
+      </div>
+    </section>
+  </section>
+  <section id="related_products">
+    <div>
+      <h2>Related Products</h2>
+      <div class="slider">
+        {% assign maxRelated = 10 %}
+        {% assign minCommonTags =  3 %}
+        {% assign maxRelatedCounter = 0 %}
+
+        {% for post in site.posts %}
+          {% if post.url != page.url %}
+
+            {% assign sameTagCount = 0 %}
+            {% assign commonTags = "" | split: ',' %}
+
+            {% for tag in post.tags %}
+                {% if page.tags contains tag %}
+                  {% assign sameTagCount = sameTagCount | plus: 1 %}
+                  {% assign commonTags = commonTags | push: tag %}
+                {% endif %}
+            {% endfor %}
+
+
+            {% if sameTagCount >= minCommonTags %}
+              <div>
+                <a href="{{ post.url }}" data-tags="{{ commonTags | split: ',' }}"><img src="{{ post.product_image }}" alt="{{ post.tagline }}" /></a>
+              </div>
+              {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+              {% if maxRelatedCounter >= maxRelated %}
+                {% break %}
+              {% endif %}
+            {% endif %}
+
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</div>

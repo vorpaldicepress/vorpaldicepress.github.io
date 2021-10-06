@@ -1,0 +1,559 @@
+---
+layout: null
+title: Create New Product
+permalink: /products/create/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+
+	<script src="https://use.fontawesome.com/af42e3060e.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="{{ site.baseurl }}/post_create/jquery.hotkeys.js"></script>
+	<script src="{{ site.baseurl }}/post_create/jquery-ui.min.js"></script>
+	<script src="{{ site.baseurl }}/post_create/quill.min.js"></script>
+	<script src="{{ site.baseurl }}/post_create/turndown.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/itemcreation.css" />
+</head>
+<body>
+	<div class="container">
+		<div class="page-header">
+			<h1 class="col-xs-off">Create New Product</h1>
+		</div>
+		<div class="form-horizontal">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label for="post-title" class="control-label col-sm-3">Title</label>
+						<div class="col-sm-9">
+							<input id="post-title" type="text" class="form-control" />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="post-product_id" class="control-label col-sm-3">ID</label>
+						<div class="col-sm-2">
+							<input id="post-product_id" type="text" class="form-control" />
+						</div>
+						<label for="post-product_type" class="control-label col-sm-2">Type</label>
+						<div class="col-sm-5">
+							<input id="post-product_type" type="text" list="list-type" class="form-control" />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="post-tagline" class="control-label col-sm-3">Tagline</label>
+						<div class="col-sm-9">
+							<input id="post-tagline" type="text" class="form-control" />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="post-product_image" class="control-label col-sm-3">Image</label>
+						<div class="col-sm-9">
+							<input id="post-product_image" type="text" class="form-control" />
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="post-product_medal" class="control-label col-sm-3">Medal</label>
+						<div class="col-sm-9">
+							<input id="post-product_medal" type="text" list="list-medals" class="form-control" />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="post-product_audience" class="control-label col-sm-3">Audience</label>
+						<div class="col-sm-9">
+							<input id="post-product_audience" type="text" list="list-audience" class="form-control" placeholder="comma separate for multiple" />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="post-product_license" class="control-label col-sm-3">License</label>
+						<div class="col-sm-9">
+							<input id="post-product_license" type="text" list="list-license" class="form-control" />
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="post-bundle" class="control-label col-sm-3">Bundle</label>
+						<div class="input-group col-sm-9">
+							<span class=" input-group-addon">
+								<input id="post-bundle" type="checkbox" value="true" />
+							</span>
+							<input id="post-bundle_products" type="text" class="form-control" placeholder="comma separated product IDs" disabled />
+						</div>
+					</div>
+				</div>
+				<hr class="col-sm-12 visible-xs" />
+				<div id="editor-container" class="col-sm-6">
+					<div id="editor-toolbar" class="btn-toolbar">
+						<!-- Add buttons as you would before -->
+						<div class="btn-group btn-group-sm">
+							<button class="ql-clean btn btn-default" title="clear styles"><i class="fa fa-trash"></i></button>
+							</div>
+						<div class="btn-group btn-group-sm">
+							<button class="ql-bold btn btn-default" title="bold"><i class="fa fa-bold"></i></button>
+							<button class="ql-italic btn btn-default" title="italic"><i class="fa fa-italic"></i></button>
+							<button class="ql-blockquote btn btn-default" type="button"><i class="fa fa-quote-right"></i></button>
+							<button class="ql-list btn btn-default" value="bullet" type="button" title="list"><i class="fa fa-list-ul"></i></button>
+						</div>
+						<div class="btn-group btn-group-sm">
+							<button class="ql-header btn btn-default" value="1"><i class="fa fa-header"></i><sup>1</sup></button>
+							<button class="ql-header btn btn-default" value="2"><i class="fa fa-header"></i><sup>2</sup></button>
+							<button class="ql-header btn btn-default" value="3"><i class="fa fa-header"></i><sup>3</sup></button>
+						</div>
+
+						<!-- <div class="btn-group btn-group-sm">
+							<button class="ql-spell btn btn-default"><i class="fa fa-magic"></i></button>
+							<button class="man-curse btn btn-default" value="curse"><i class="fa fa-exclamation-triangle"></i></button>
+						</div> -->
+						<div class="btn-group btn-group-sm pull-right">
+							<button id="editor-expand" class="btn btn-default"><i class="fa fa-arrows-alt"></i></button>
+						</div>
+					</div>
+					<div id="post-description">
+						<p data-placeholder="Product description, can be markup, html, or use the editor tools"></p>
+					</div>
+					<!--<br />
+					<button id="description-html">Get HTML</button>-->
+				</div>
+			</div>
+			<div class="row">
+				<hr class="col-sm-12 clearfix" />
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div id="post-publishing" class="panel panel-default">
+						<div class="panel-heading">
+							<label class="control-label">Publishing Information</label>
+							<!-- <label class="pull-right">
+								<input id="class-all" type="checkbox"> All
+							</label> -->
+						</div>
+						<div class="panel-body">
+							<div class="form-group">
+								<label for="post-publisher_type" class="control-label col-sm-3">Type</label>
+								<div class="col-sm-9">
+									<input id="post-publisher_type" type="text" list="list-publisher_type" class="form-control" />
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="post-publisher_name" class="control-label col-sm-3">Name</label>
+								<div class="col-sm-9">
+									<input id="post-publisher_name" type="text" value="Vorpal Dice Press" class="form-control" />
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="post-released" class="control-label col-sm-3">Released</label>
+								<div class="col-sm-9">
+									<input id="post-released" type="date" class="form-control" />
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="post-product_pagecount" class="control-label col-sm-3">Pages</label>
+								<div class="col-sm-2">
+									<input id="post-product_pagecount" type="text" class="form-control" />
+								</div>
+								<label for="post-product_print" class="control-label col-sm-2">Printed</label>
+								<div class="col-sm-5">
+									<div class="checkbox">
+										<label>
+											<input id="post-product_print" type="checkbox" value="true">
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<hr />
+						<div class="panel-body" id="product_contributors">
+							<div class="form-group">
+								<label for="post-product_contributors_authors" class="control-label col-sm-3">Authors</label>
+								<div class="col-sm-9">
+									<input id="post-product_contributors_authors" type="text" class="form-control" />
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="post-product_contributors_artists" class="control-label col-sm-3">Artists</label>
+								<div class="col-sm-9">
+									<input id="post-product_contributors_artists" type="text" class="form-control" />
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="post-product_contributors_editor" class="control-label col-sm-3">Editor</label>
+								<div class="col-sm-9">
+									<input id="post-product_contributors_editor" type="text" class="form-control" />
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="post-product_contributors_graphics" class="control-label col-sm-3">Graphic Design</label>
+								<div class="col-sm-9">
+									<input id="post-product_contributors_graphics" type="text" class="form-control" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<hr class="col-sm-12 visible-xs" />
+
+				<div class="col-sm-6">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<label class="control-label">Product Details</label>
+						</div>
+						<div class="panel-body">
+
+							<div class="form-group">
+								<label for="last_modified_at" class="control-label col-sm-3">Last Updated</label>
+								<div class="col-sm-9">
+									<input id="last_modified_at" type="date" class="form-control" />
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label for="post-product_feature_end" class="control-label col-sm-3">Feature Start</label>
+								<div class="col-sm-3">
+									<input id="post-product_feature_end" type="date" class="form-control" />
+								</div>
+								<label for="post-product_feature_start" class="control-label col-sm-3">Feature End</label>
+								<div class="col-sm-3">
+									<input id="post-product_feature_start" type="date" class="form-control">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label col-sm-3">Tags</label>
+								<div class="col-sm-9">
+									<input id="post-tags" type="text" class="form-control" />
+								</div>
+							</div>
+						</div>
+
+						<hr />
+
+						<div class="panel-body">
+
+							<div>
+								<div class="col-sm-3">
+									<input id="product_location1" type="text" class="form-control" placeholder="Location" value="DMsGuild"/>
+								</div>
+								<div class="col-sm-9">
+									<input id="product_link1" type="text" class="form-control" placeholder="Link" />
+
+									<div class="form-horizontal">
+										<div class="form-group">
+											<div class="col-sm-6">
+												<input id="product_price1" type="number" class="form-control" placeholder="Price" min="0.00" step="0.01" />
+											</div>
+											<div class="col-sm-6">
+												<input id="product_sale1" type="number" class="form-control" placeholder="Sale price" min="0.00" step="0.01" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="col-sm-3">
+									<input id="product_location2" type="text" class="form-control" placeholder="Location"/>
+								</div>
+								<div class="col-sm-9">
+									<input id="product_link2" type="text" class="form-control" placeholder="Link" />
+
+									<div class="form-horizontal">
+										<div class="form-group">
+											<div class="col-sm-6">
+												<input id="product_price2" type="number" class="form-control" placeholder="Price" min="0.00" step="0.01" />
+											</div>
+											<div class="col-sm-6">
+												<input id="product_sale2" type="number" class="form-control" placeholder="Sale price" min="0.00" step="0.01" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="col-sm-3">
+									<input id="product_location3" type="text" class="form-control" placeholder="Location"/>
+								</div>
+								<div class="col-sm-9">
+									<input id="product_link3" type="text" class="form-control" placeholder="Link" />
+
+									<div class="form-horizontal">
+										<div class="form-group">
+											<div class="col-sm-6">
+												<input id="product_price3" type="number" class="form-control" placeholder="Price" min="0.00" step="0.01" />
+											</div>
+											<div class="col-sm-6">
+												<input id="product_sale3" type="number" class="form-control" placeholder="Sale price" min="0.00" step="0.01" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<button class="btn btn-primary" style="min-width:100px;" onclick="outputMarkdown()">Output</button>
+			<hr />
+			<div class="form-group">
+				<div class="col-xs-12">
+					<input id="post-title-output" type="text" class="form-control" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="form-group">
+						<div class="col-xs-12">
+							<textarea rows="10" id="mdOutput" class="form-control"></textarea>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<datalist id="list-type">
+		<option>Adventure</option>
+		<option>Class</option>
+		<option>Supplement</option>
+	</datalist>
+	<datalist id="list-rarity">
+		<option>Mediocre</option>
+		<option>Common</option>
+		<option>Uncommon</option>
+		<option>Rare</option>
+		<option>Very Rare</option>
+		<option>Legendary</option>
+		<option>Artifact</option>
+	</datalist>
+	<datalist id="list-medals">
+		<option>Copper</option>
+		<option>Silver</option>
+		<option>Electrum</option>
+		<option>Gold</option>
+		<option>Platinum</option>
+		<option>Mithral</option>
+		<option>Adamantine</option>
+	</datalist>
+	<datalist id="list-audience">
+		<option>Player</option>
+		<option>Dungeon Master</option>
+	</datalist>
+	<datalist id="list-license">
+		<option>Community Content Agreement</option>
+	</datalist>
+	<datalist id="list-publisher_type">
+		<option>Self</option>
+		<option>Collaboration</option>
+		<option>Feature</option>
+	</datalist>
+
+	<script>
+		//------------- QUILL ---------------
+		var editor = new Quill('#post-description', {
+			modules: {
+				toolbar: '#editor-toolbar'
+			},
+			formats: ["bold", "italic", "blockquote", "list", "header"] //make sure to include any custom elements here, so they are allowed in the editor. This is the whitelist of what things are allowed
+		});
+		$(editor.root).addClass("form-control");//quill creates an element within the container you give it, and this element needs to be styled to match the page.
+
+		var timer;
+		editor.on('text-change', function (delta, oldDelta, source) {
+			clearTimeout(timer);
+			timer = setTimeout(outputMarkdown, 1500);
+		});
+
+		var outputMarkdown = function () {
+			$("#post-title-output").val(
+				formatDate(document.getElementById("post-released").value) +
+				"-" +
+				slugify(document.getElementById("post-title").value) +
+				".md"
+			);
+
+			$("#mdOutput").val(
+				parseJekyllPost(new Product())
+			)
+		}
+
+		var large = false; //bool to determine if the editor is currently fullscreened
+		$("#editor-expand").on("click", function () { //button for expanding the quill editor
+			if (large) {
+				large = false;
+				$("html").css("overflow", "scroll");
+			}
+			else {
+				large = true;
+				$("html").css("overflow", "hidden");
+				window.scrollTo(0, 0);
+			}
+
+			$("#editor-container").toggleClass("large");
+			$("#editor-container .ql-editor").toggleClass("large");
+		});
+		//------------- END QUILL ---------------
+
+		function slugify(string) {
+		  const a = 'àáâäæãåāăąçćčđďèéêëēėęěğǵḧîïíīįìłḿñńǹňôöòóœøōõőṕŕřßśšşșťțûüùúūǘůűųẃẍÿýžźż·/_,:;'
+		  const b = 'aaaaaaaaaacccddeeeeeeeegghiiiiiilmnnnnoooooooooprrsssssttuuuuuuuuuwxyyzzz------'
+		  const p = new RegExp(a.split('').join('|'), 'g')
+
+		  return string.toString().toLowerCase()
+		    .replace(/\s+/g, '-') // Replace spaces with -
+		    .replace(p, c => b.charAt(a.indexOf(c))) // Replace special characters
+		    .replace(/&/g, '-and-') // Replace & with 'and'
+		    .replace(/[^\w\-]+/g, '') // Remove all non-word characters
+		    .replace(/\-\-+/g, '-') // Replace multiple - with single -
+		    .replace(/^-+/, '') // Trim - from start of text
+		    .replace(/-+$/, '') // Trim - from end of text
+		}
+
+		function formatDate(date) {
+			if (!date.includes(":")) { date += " 00:00:00 GMT"; }
+
+	    var d = new Date(date),
+	        month = '' + (d.getMonth() + 1),
+	        day = '' + d.getDate(),
+	        year = d.getFullYear();
+
+	    if (month.length < 2)
+	        month = '0' + month;
+	    if (day.length < 2)
+	        day = '0' + day;
+
+	    return [year, month, day].join('-');
+		}
+
+		$("#post-bundle").on("change", function () {
+			if (this.checked)
+				$("#post-bundle_products").prop("disabled", false);
+			else
+				$("#post-bundle_products").prop("disabled", true);
+		});
+
+	</script>
+
+	<script>
+		const bullet = "  - ";
+		var turndownService = new TurndownService();
+
+		function Product() {
+			this.Title = document.getElementById("post-title").value;
+			this.Tagline = document.getElementById("post-tagline").value;
+			this.ID = document.getElementById("post-product_id").value;
+			this.Updated = document.getElementById("last_modified_at").value;
+
+			this.Bundle = document.getElementById("post-bundle").checked;
+			this.BundleProducts = Array.from(document.getElementById("post-bundle_products").value.split(","), x => x.trim());
+
+			this.Type = document.getElementById("post-product_type").value;
+			this.Tags = Array.from(document.getElementById("post-tags").value.split(","), x => x.trim());
+			this.Medal = document.getElementById("post-product_medal").value;
+			this.Audience = Array.from(document.getElementById("post-product_audience").value.split(","), x => x.trim());
+			this.License = Array.from(document.getElementById("post-product_license").value.split(","), x => x.trim());
+
+			this.FeatureStart = document.getElementById("post-product_feature_start").value;
+			this.FeatureEnd = document.getElementById("post-product_feature_end").value;
+
+			this.Image = document.getElementById("post-product_image").value;
+			this.PublisherType = document.getElementById("post-publisher_type").value;
+			this.Publisher = document.getElementById("post-publisher_name").value;
+			this.Authors = Array.from(document.getElementById("post-product_contributors_authors").value.split(","), x => x.trim());
+			this.Artists = Array.from(document.getElementById("post-product_contributors_artists").value.split(","), x => x.trim());
+			this.Editors = Array.from(document.getElementById("post-product_contributors_editor").value.split(","), x => x.trim());
+			this.Graphics = Array.from(document.getElementById("post-product_contributors_graphics").value.split(","), x => x.trim());
+
+			this.Pages = document.getElementById("post-product_pagecount").value;
+			this.Print = document.getElementById("post-product_print").checked;
+
+			var locations = [];
+			var links = [];
+			var prices = [];
+			var sales = [];
+			if (document.getElementById("product_location1").value != "") {
+				locations.push(document.getElementById("product_location1").value);
+				links.push(document.getElementById("product_link1").value);
+				prices.push(document.getElementById("product_price1").value);
+				sales.push(document.getElementById("product_sale1").value);
+			}
+			if (document.getElementById("product_location2").value != "") {
+				locations.push(document.getElementById("product_location2").value);
+				links.push(document.getElementById("product_link2").value);
+				prices.push(document.getElementById("product_price2").value);
+				sales.push(document.getElementById("product_sale2").value);
+			}
+			if (document.getElementById("product_location3").value != "") {
+				locations.push(document.getElementById("product_location3").value);
+				links.push(document.getElementById("product_link3").value);
+				prices.push(document.getElementById("product_price3").value);
+				sales.push(document.getElementById("product_sale3").value);
+			}
+
+			this.Locations = locations;
+			this.Links = links;
+			this.Prices = prices;
+			this.Sales = sales;
+
+			this.Description = HTMLPostProcessing(document.getElementById("post-description").getElementsByClassName("ql-editor")[0].innerHTML);
+		}
+
+		function parseJekyllPost(post) {
+			post.Description = turndownService.turndown(post.Description);
+
+			return `---
+title: "${post.Title}"
+tagline: "${post.Tagline}"
+product_id: ${post.ID}
+last_modified_at: ${post.Updated}
+bundle: ${post.Bundle}
+bundle_products:${post.BundleProducts[0] == "" ? "" : post.BundleProducts.map((str, i) => `
+${bullet + str}`).join("")}
+product_type: ${post.Type}
+tags:${post.Tags[0] == "" ? "" : post.Tags.map((str, i) => `
+"${bullet + str}"`).join("")}
+product_medal: ${post.Medal}
+product_audience: ${post.Audience}
+product_license: ${post.License}
+
+product_feature_start: ${post.FeatureStart}
+product_feature_end: ${post.FeatureEnd}
+
+product_image: ${post.Image}
+publisher_type: ${post.PublisherType}
+publisher_name: ${post.Publisher}
+product_contributors:${ post.Authors[0] == "" ? "" : `
+  Authors: ${post.Authors.map((str, i) => `
+	${bullet + str}`).join("")}` }${ post.Artists[0] == "" ? "" : `
+  Artists: ${post.Artists.map((str, i) => `
+	${bullet + str}`).join("")}` }${ post.Editors[0] == "" ? "" : `
+  Editor: ${post.Editors.map((str, i) => `
+	${bullet + str}`).join("")}` }${ post.Graphics[0] == "" ? "" : `
+  Graphic Design: ${post.Graphics.map((str, i) => `
+	${bullet + str}`).join("")}` }
+product_pagecount: ${post.Pages}
+product_print: ${post.Print}
+
+product_prices:${ post.Locations[0] == "" ? "" : `${post.Prices.map((str, i) => `
+	${post.Locations[i]}:${post.Prices[i]}`).join("")}` }
+product_sales:${ post.Locations[0] == "" ? "" : `${post.Sales.map((str, i) => `
+	${post.Locations[i]}:${post.Sales[i]}`).join("")}` }
+product_links:${ post.Locations[0] == "" ? "" : `${post.Links.map((str, i) => `
+	${post.Locations[i]}:${post.Links[i]}`).join("")}` }
+
+---
+
+${post.Description}
+`
+		}
+
+		function HTMLPostProcessing(html) {
+			//if there are too many paragraph tags, add a linebreak. If there are too many linebreaks, add a paragraph tags.
+			return html
+				.replace(/<\/p><p>/g, "<br>")
+				.replace(/(<br>){2,}/g, "</p><p>");
+		}
+	</script>
+</body>
+</html>

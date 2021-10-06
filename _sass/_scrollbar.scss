@@ -1,0 +1,28 @@
+::-webkit-scrollbar {
+	width: 11px;
+	@include mobile{
+		width: 7px;
+	}
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgba(255, 255, 255, 0.5);
+	@include desktop{
+		border-radius: 10px;
+	  border: 1px solid $mediumGray;
+	}
+}
+
+::-webkit-scrollbar-button {
+		height: 20px;
+	@include mobile{
+		height:0px;
+	}
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #5c5f6d;
+	@include desktop{
+	  border-radius: 10px;
+	}
+}

@@ -1,0 +1,142 @@
+
+//line height
+$compressed: 1.2em;
+$normal: 1.4em;
+$spacey: 1.5em;
+
+// Colors
+$blue: #4183C4;
+$blueDark: #1c7e9d;
+$bluakDark: #264658;
+// $bluakDark: #40434e;
+$bluakMedium: #5c5f6d;
+$borderLight: #e6e6e6;
+
+// Grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$mediumGray: #ababab;
+$lightGray: #eee;
+$white: #fff;
+
+$transp_lightGray: rgba(0, 0, 0, 0.2);
+$transp_lightBlue: rgba(98, 157, 167, 0.1);
+$transp_medBlue: rgba(98, 157, 167, 0.25);
+$boxshadow: 1px 1px 3px rgba(0,0,0,0.2);
+
+//backgrounds
+$backgroundMedium: #495b65 url("/images/hatching_light.png");
+$backgroundLight: $white url("/images/subtle_grunge_white.jpg");
+
+// Font stacks
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+
+$roboto: 'Roboto', Helvetica, sans-serif;
+$xiaowei: 'XiaoWei', 'Roboto', Helvetica, sans-serif;
+
+// /* latin-ext */
+// @font-face {
+//   font-family: 'Roboto';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/Fcx7Wwv8OzT71A3E1XOAjvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+//   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+// }
+// /* latin */
+// @font-face {
+//   font-family: 'Roboto';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
+//   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+// }
+
+
+$a-tags: 'a, a:active, a:hover, a:focus, a:visited';
+
+$col-xsmall: 480px;
+$col-small: 768px;
+$col-med: 992px;
+$col-lg: 1200px;
+
+$item-width: 550px;
+$item-gutter: 15px;
+$wrapper-padding: 50px;
+$scrollbar-width: calc(100vw - 100%); //doesnt seem to work all the time
+
+
+$col-single: $item-width;
+$col-double: ($item-width * 2) + ($item-gutter * 1);
+$col-triple: ($item-width * 3) + ($item-gutter * 2);
+$col-quad:   ($item-width * 4) + ($item-gutter * 3);
+
+$col-single-total: ($wrapper-padding * 2) + $col-double + 14px;
+$col-double-total: ($wrapper-padding * 2) + $col-triple + 14px;
+$col-triple-total: ($wrapper-padding * 2) + $col-quad   + 14px;
+
+@mixin single {
+  @media screen and (max-width: $col-single-total) {
+    @content;
+  }
+}
+@mixin double {
+  @media screen and (min-width: $col-single-total + 1px) and (max-width: $col-double-total) {
+    @content;
+  }
+}
+@mixin triple {
+  @media screen and (min-width: $col-double-total + 1px) and (max-width: $col-triple-total) {
+    @content;
+  }
+}
+@mixin quad {
+  @media screen and (min-width: $col-triple-total + 1px) {
+    @content;
+  }
+}
+
+
+@mixin desktop {
+  @media screen and (min-width: $col-small) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media screen and (max-width: #{$col-small - 1px}) {
+    @content;
+  }
+}
+
+@mixin tiny {
+  @media screen and (max-width: $col-xsmall){
+    @content;
+  }
+}
+@mixin small {
+  @media screen and (max-width: $col-small){
+    @content;
+  }
+}
+// @mixin medium {
+//   @media screen and (min-width: $col-small + 1) and (max-width: $col-med) {
+//     @content;
+//   }
+// }
+@mixin large {
+  @media screen and (min-width: $col-med + 1) and (max-width: $col-lg) {
+    @content;
+  }
+}
+@mixin large-up {
+  @media screen and (min-width: $col-med + 1) {
+    @content;
+  }
+}
+@mixin xlarge {
+  @media screen and (min-width: $col-lg + 1) {
+    @content;
+  }
+}
