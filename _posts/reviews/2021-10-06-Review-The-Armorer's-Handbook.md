@@ -47,15 +47,11 @@ product_links:
 # anything below this triple dash is considered content and can be markup or html. It should be fully HTML compatible as long as your tags are formatted correctly.
 ---
 
-<div style="float: right; width: 20%; height: auto; shape-outside: url('/img/armorers_handbook_blacksmith_EVEN-AMUNDSEN.png');">
+<div style="float: right; shape-outside: url('/img/armorers_handbook_blacksmith_EVEN-AMUNDSEN.png');">
 <img title="Blacksmith by Even Amundsen" src="/img/armorers_handbook_blacksmith_EVEN-AMUNDSEN.png" style="shape-margin: 1em; shape-image-threshold: .3;" />
-<br />
-<center>artist: Even Amundsen</center>
 </div>
 
-# Summary
-
-The Armorer's Handbook by [@dmheavyarms](twitter) was a breakout success for the author—a clear demonstration of his expertise as a designer and producer of a polished product. It was an immediate hit and currently sits as one of the all time best-selling products at Dungeon Masters Guild.
+The Armorer's Handbook by [@dmheavyarms](https://twitter.com/DMheavyarms) was a breakout success for the author—a clear demonstration of his expertise as a designer and producer of a polished product. It was an immediate hit and currently sits as one of the all time best-selling products at Dungeon Masters Guild.
 
 This short but dense 28-page supplement provides an easily referenced and quick system to improve and alter your basic weapons and armor. Such upgrades include modifying the armor by proofing, which grants its wearer a small damage threshold for nonmagical slashing damage, or burnishing it to a mirror finish to impress yourself upon others by way of advantage on Charisma-based checks. You can also craft special ammunition such as the *berserk dart* or *bodkin arrows* designed to penetrate plate and mail armor. These upgrades also include a variety of different materials such as cold iron, shadowsilk, and dragonhide; as well as optional rules for wear and repair on equipment.
 
@@ -65,7 +61,7 @@ The Rune Magic chapter also includes rules for crafting runestones, a detailed R
 
 Lastly, the PDF is rounded out with an appendix where the lead designer explains their thought processes and answers frequently asked questions, justifies balance, and provides quick reference tables for the various upgrades and runes throughout the book.
 
-# Thoughts
+## Thoughts
 
 Crafting systems in games are a fantastic **exploration** feature where players get the opportunity to interact with their equipment, mix and match options, and customize it to fit their character's themes or simply squeeze every last drop of efficiency out of the system. This is prevalent in popular video games such as The Witcher or The Elder Scrolls: Skyrim, and is notably missing from the popular table top game Dungeons & Dragons 5th Edition. Throughout the 3rd party and homebrew communities every designer it seems has their take on this system. However, I feel it is safe to say that The Armorer's Handbook is among the most popular and well liked and it's evident why.
 
@@ -80,3 +76,13 @@ Personally as a Dungeon Master, I am particularly stingy on magic item rewards y
 I'm also very interested in simply adding the equipment customization properties to equipment the party finds in their travels. 
 
 All in all, for a price tag of $9.95, there really is no reason to be on the fence about this product unless you have absolutely no use for crafting in your games.
+
+You can find dmheavyarms here:
+
+**twitter**: ([@dmheavyarms](https://twitter.com/dmheavyarms) 
+
+**patreon**: [heavyarms](https://www.patreon.com/heavyarms)
+
+**discord**: [Heavy's Hall of Heroes](https://discord.com/invite/jy4GuXs)
+
+and on his **website**: [heavyarms.com](https://www.heavyarms.com/) where you can purchase the **Gunslinger** class for Dungeons & Dragons 5th Edition!
