@@ -837,10 +837,15 @@ footer:hover > .site-logo {
     background: rgba(128, 128, 128, 0.1);
   }
 
-
-input[type="search"]:focus {
-  outline : none;
+input[type=search]{
+   -moz-appearance: none;/* older firefox */
+   -webkit-appearance: none; /* safari, chrome, edge and ie mobile */
+   appearance: none; /* rest */
 }
+  input[type="search"]:focus {
+    outline : none;
+  }
+
 #search_field {
   width: calc(100% - 150px);
   font-size: 1.2em;
@@ -1078,7 +1083,9 @@ input[type="search"]:focus {
     margin: 0px;
     width: 100%;
   }
-
+  #search_field {
+    width: calc(100% - 75px);
+  }
   #search_button {
       width: 75px;
   }
