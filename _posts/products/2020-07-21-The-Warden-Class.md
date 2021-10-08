@@ -35,17 +35,14 @@ product_contributors:
     - Steve Fidler
   Artists:
     - Caio Santos
-  Any Role Name:
-    - what
-  Really:
-    - omg, this, is, amazeballs
+  Editing:
+    - Laura Hirsbrunner
 product_pagecount: 20
 product_print: true
 # price of the product at each location
 product_prices:
     DTRPG: 4.95
     DTRPG Softcover: 7.95
-    Review Test:
 # if the product is on sale, this is the final price of the on-sale product for each location that it is on sale. The sales % will be calculated and displayed based on the difference between product_prices and product_sales
 product_sales:
     DTRPG:
