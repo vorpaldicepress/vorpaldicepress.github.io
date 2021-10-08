@@ -11,7 +11,7 @@
 
         {% if build_date >= feature_start and build_date <= feature_end %}
           <div class="feature-item" data-age="{{ build_days | minus: feature_start_days }}" data-start="{{ feature_start }}" data-feature-end="{{ feature_end }}">
-            <a href="{{ post.url }}"><img src="{{ post.product_image }}" alt="{{ post.title }}. {{ post.tagline }}" /></a>
+            <a href="{{ post.url }}"><img src="{{ post.product_image }}" alt="{{ post.title }}. {{ post.tagline }}" loading="lazy" /></a>
           </div>
         {% endif %}
       {% endfor %}

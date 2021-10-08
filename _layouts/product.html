@@ -81,7 +81,7 @@ layout: default
 
             {% if sameTagCount >= minCommonTags %}
               <div>
-                <a href="{{ post.url }}" data-tags="{{ commonTags | split: ',' }}"><img src="{{ post.product_image }}" alt="{{ post.tagline }}" /></a>
+                <a href="{{ post.url }}" data-tags="{{ commonTags | split: ',' }}"><img src="{{ post.product_image }}" alt="{{ post.tagline }}" loading="lazy" /></a>
               </div>
               {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
               {% if maxRelatedCounter >= maxRelated %}
