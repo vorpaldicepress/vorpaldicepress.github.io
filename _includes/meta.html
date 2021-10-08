@@ -31,6 +31,10 @@
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="twitter:title" content="{{ page.title }}" />
 {% endif %}
+{% if site.twitter %}
+<meta property="twitter:site" content="{{ site.twitter }}" />
+{% endif %}
+<meta property="twitter:card" content="summary" />
 
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 {% if page.product_image %}
