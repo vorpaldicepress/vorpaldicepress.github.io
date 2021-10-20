@@ -64,8 +64,6 @@ Read or paraphrase the following text when Sardior uses his [Mythic Trait] trait
 #### Rewards
 Fighting Sardior as a mythic encounter is equivalent to fighting two CR [CR] creatures in one encounter. Award a party [2xXP] XP for defeating Sardior after he uses [Mythic Trait]. You can also reward them with [item reward 1, item reward 2, etc], and the spell [spell reward 1, spell reward 2] in addition to any other treasure he might hold.
 
----
-
 ## Sardior
 
 *Gargantuan Dragon, Always Neutral*
