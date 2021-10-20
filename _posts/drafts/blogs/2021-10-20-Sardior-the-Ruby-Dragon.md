@@ -10,7 +10,7 @@ main a {
   font-weight: bold;
 }
 main table {
-  border-spacing: 10px;
+  border-spacing: 5px;
 }
 main h2 {
   padding-bottom: 2px;
