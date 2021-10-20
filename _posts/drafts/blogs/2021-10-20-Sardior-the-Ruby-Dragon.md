@@ -1,7 +1,12 @@
 ---
   title: Sardior, the Ruby Dragon
 ---
-## Sardior
+
+<div style="float: right; shape-outside: url('/img/blog/niv_mizzet_raymond_swanland.png');">
+<img title="Niv Mizzet, Reborn by Raymond Swanland, copyright Wizards of the Coast" src="/img/blog/niv_mizzet_raymond_swanland.png" style="shape-margin: 1em; shape-image-threshold: .3;" />
+</div>
+
+## Written by Bryan Holmes
 
 While the great chromatic and metallic dragons wage battles and intrigue, sometimes in the name of Bahamut or Tiamat, the gem dragons are content with more philosophical ways, enjoying contemplation and meditation. While Tiamat lords over chromatic dragons with an iron claw, and Bahamut inspires goodness in his followers, most gem dragons don’t pay all that much mind to Sardior: the ruby dragon. 
 
@@ -10,7 +15,9 @@ Sardior is the creator of gem dragons, although where he came from is unknown. S
 Sardior is playful, enjoying intellectual exercises with other creatures. He also possesses a sharp wit, and is an infamous conversationalist. At the height of Netheril, Sardior considered the wizards to be sometimes allies and sometimes foes, although always a group to count on when going against the Phaerimm. Today, he is more concerned with proliferating psionic power within all the races of the world.
 
 **Ideal.** “Leave the world a better place than it was when you entered it.”
+
 **Bond.** “The world is full of arcane and divine… it needs more powers of the mind to balance them out.”
+
 **Flaw.** “My ascension to divinity makes it easy to understand the big picture, but hard to see the impact on individuals.”
 
 > DMs wanting to know more about Sardior should check out the following books: “That’s not in the Monster Manual” from *Dragon* #37,  *Planes of Law*, and “The Legend of Sardior, The Mind’s Eye” from the *Wizards of the Coast website* (found <a href="http://archive.wizards.com/default.asp?x=dnd/psm/20030124a">here</a>)
