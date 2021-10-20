@@ -37,7 +37,7 @@ main .editor {
 	margin-right:	15px;
 	padding-left:	10px;
 	padding-right:	10px;
-	padding-top:	1px;
+	padding-top:	-2px;
 	padding-bottom:	5px;
 	background-color:	rgba(128, 187, 59, 0.25);
 }
@@ -45,8 +45,10 @@ main .editor {
 
 <center><i>Sardior, the Ruby Dragon is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</i></center>
 
+<br />
+
 <div style="float: right; shape-outside: url('/img/blog/niv_mizzet_raymond_swanland.png');">
-<img title="Niv Mizzet, Reborn by Raymond Swanland, copyright Wizards of the Coast" src="/img/blog/niv_mizzet_raymond_swanland.png" style="shape-margin: 1em; shape-image-threshold: .3;" />
+<img title="Niv Mizzet, Reborn by Raymond Swanland, copyright Wizards of the Coast" src="/img/blog/niv_mizzet_raymond_swanland.png" style="shape-margin: 1em; shape-image-threshold: .3; padding-bottom: 2em;" />
 </div>
 
 #### Written by Bryan Holmes
