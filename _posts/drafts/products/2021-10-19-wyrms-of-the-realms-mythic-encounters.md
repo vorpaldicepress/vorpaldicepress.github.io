@@ -71,6 +71,6 @@ Awaken these ancient beings and watch the panic and chaos ensue as they fly over
 - A never-before seen dragon created by the sage Ed Greenwood: The Ghost Wyrm Orothdroun. This original dragon was created for the magazine, but has never been seen until now!
 - Rewards galore! Mythic magic items, spells, and boons as rewards for heroes and villains with the skill and bravery to face mythic encounters!
 
-<img src="/img/products/MythicWyrms-PDF-4.png">
+<a href="/img/products/MythicWyrms-PDF-4.png"><img src="/img/products/MythicWyrms-PDF-4.png"></a>
 
-<img src="/img/products/MythicWyrms-PDF-6.png">
+<a href="/img/products/MythicWyrms-PDF-6.png"><img src="/img/products/MythicWyrms-PDF-6.png"></a>
