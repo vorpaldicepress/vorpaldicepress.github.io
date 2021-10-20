@@ -12,7 +12,7 @@ main a {
 main table {
 	border-spacing:	5px;
 }
-main h2 {
+main h {
 	margin-bottom:	2px;
 }
 main .spelllist {
