@@ -7,7 +7,7 @@ main a {
   color: #4f115f;
   text-decoration: none;
   font-style: italic;
-  font-weight: normal;
+  font-weight: bold;
 }
 </style>
 
