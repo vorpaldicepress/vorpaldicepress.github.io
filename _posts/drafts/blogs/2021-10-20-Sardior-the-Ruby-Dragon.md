@@ -7,7 +7,7 @@
 </div>
 
 #### Written by Bryan Holmes
-*Sardior, the Ruby Dragon is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.*
+<center>*Sardior, the Ruby Dragon is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.*</cemter>
 
 While the great chromatic and metallic dragons wage battles and intrigue, sometimes in the name of Bahamut or Tiamat, the gem dragons are content with more philosophical ways, enjoying contemplation and meditation. While Tiamat lords over chromatic dragons with an iron claw, and Bahamut inspires goodness in his followers, most gem dragons don’t pay all that much mind to Sardior: the ruby dragon. 
 
