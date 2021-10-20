@@ -30,9 +30,8 @@ main .editor {
 	margin-right:	15px;
 	padding-left:	10px;
 	padding-right:	10px;
-	padding-top:	0px;
 	padding-bottom:	5px;
-	background-color:	rgba(128, 187, 59, 25);
+	background-color:	rgba(128, 187, 59, 0.25);
 }
 </style>
 
