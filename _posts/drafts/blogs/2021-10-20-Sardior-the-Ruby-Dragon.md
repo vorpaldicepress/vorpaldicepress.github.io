@@ -22,7 +22,8 @@ main .editor {
 	width: 75%;
 	margin-left:	15px;
 	margin-right:	15px;
-	background-color:	#e8e9d7;
+	padding:	10px;
+	background-color:	#80bb3b;
 }
 </style>
 
