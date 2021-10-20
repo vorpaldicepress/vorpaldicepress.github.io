@@ -4,16 +4,25 @@
 
 <style>
 main a {
-  color: #4f115f;
-  text-decoration: none;
-  font-style: italic;
-  font-weight: bold;
+	color:	#4f115f;
+	text-decoration:	none;
+	font-style:	italic;
+	font-weight:	bold;
 }
 main table {
-  border-spacing: 5px;
+	border-spacing:	5px;
 }
 main h2 {
-  margin-bottom: 2px;
+	margin-bottom:	2px;
+}
+main .spelllist {
+	margin-left:	15px;
+}
+main .editor {
+	width: 75%;
+	margin-left:	15px;
+	margin-right:	15px;
+	background-color:	#e8e9d7;
 }
 </style>
 
@@ -39,8 +48,10 @@ Sardior is playful, enjoying intellectual exercises with other creatures. He als
 
 > DMs wanting to know more about Sardior should check out the following books: “That’s not in the Monster Manual” from *Dragon* #37,  *Planes of Law*, and “The Legend of Sardior, The Mind’s Eye” from the *Wizards of the Coast website* (found <a href="http://archive.wizards.com/default.asp?x=dnd/psm/20030124a">here</a>)
 
+<div class="editor">
 #### Editor's Note:
 While not Bryan's intention, while reading this over I couldn't help but think of <a href="https://mtg.fandom.com/wiki/Niv-Mizzet">Niv Mizzet</a>, from the Magic: the Gathering world of Ravnica. Sardior's statblock, as presented below, could be used for Niv Mizzet if you are using the setting guide *Guildmaster's Guide to Ravnica*! Bonus!
+</div>
 
 ### Sardior’s Lair
 The Ruby Palace is a flying castle which travels the material plane high above the world. Clouds generate around the castle as threads of the astral plane boil away around the fortress. If the palace remains in place for at least one week, the regional effects of the castle begin to spread out at a rate of 1 mile per day, to a maximum of 8 miles.
@@ -102,11 +113,15 @@ Fighting Sardior as a mythic encounter is equivalent to fighting two CR [CR] cre
 
 **Innate Psionics.** Sardior’s innate spellcasting ability his Intelligence (spell save DC 17). He can innately cast the following spells, requiring no components:
 
+<div class="spelllist">
+
 At Will: <a href="https://www.dndbeyond.com/spells/animal-friendship">animal friendship</a>, <a href="https://www.dndbeyond.com/spells/arcane-eye">arcane eye</a>, <a href="https://www.dndbeyond.com/spells/augury">augury</a>, <a href="https://www.dndbeyond.com/spells/calm-emotions">calm emotions</a>, <a href="https://www.dndbeyond.com/spells/detect-thoughts">detect thoughts</a>, <a href="https://www.dndbeyond.com/spells/enthrall">enthrall</a>, <a href="https://www.dndbeyond.com/spells/locate-animals-or-plants">locate animals or plants</a>, <a href="https://www.dndbeyond.com/spells/locate-creature">locate creature</a>, <a href="https://www.dndbeyond.com/spells/locate-object">locate object</a>, <a href="https://www.dndbeyond.com/spells/sleep">sleep</a>.
 
 3/day each: <a href="https://www.dndbeyond.com/spells/charm-monster">charm monster</a>, <a href="https://www.dndbeyond.com/spells/clairvoyance">clairvoyance</a>, <a href="https://www.dndbeyond.com/spells/command">command</a>, <a href="https://www.dndbeyond.com/spells/confusion">confusion</a>, <a href="https://www.dndbeyond.com/spells/dream">dream</a>, <a href="https://www.dndbeyond.com/spells/hold-monster">hold monster</a>, <a href="https://www.dndbeyond.com/spells/hypnotic-pattern">hypnotic pattern</a>, <a href="https://www.dndbeyond.com/spells/mislead">mislead</a>.
 
 1/day each: <a href="https://www.dndbeyond.com/spells/antipathy-sympathy">antipathy/sympathy</a>, <a href="https://www.dndbeyond.com/spells/compulsion">compulsion</a>, <a href="https://www.dndbeyond.com/spells/dominate-monster">dominate monster</a>, <a href="https://www.dndbeyond.com/spells/feeblemind">feeblemind</a>, <a href="https://www.dndbeyond.com/spells/mass-suggestion">mass suggestion</a>.
+
+</div>
 
 **Legendary Resistance (5/Day).** If Sardior fails a saving throw, he can choose to succeed instead.
 
