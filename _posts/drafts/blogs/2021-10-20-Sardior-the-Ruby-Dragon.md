@@ -10,11 +10,11 @@ main a {
 	font-weight:	bold;
 }
 main .feature {
-	text-indent: 2em;
+	text-indent: 15px;
 }
 main .hanging {
-	text-indent: -2em;
-	margin-left: 2em;
+	text-indent: -15px;
+	margin-left: 15px;
 }
 main table {
 	border-spacing:	5px;
@@ -37,7 +37,7 @@ main .editor {
 	margin-right:	15px;
 	padding-left:	10px;
 	padding-right:	10px;
-	padding-top:	10px;
+	padding-top:	5px;
 	padding-bottom:	5px;
 	background-color:	rgba(128, 187, 59, 0.25);
 }
@@ -50,6 +50,8 @@ main .editor {
 </div>
 
 #### Written by Bryan Holmes
+
+<br />
 
 While the great chromatic and metallic dragons wage battles and intrigue, sometimes in the name of Bahamut or Tiamat, the gem dragons are content with more philosophical ways, enjoying contemplation and meditation. While Tiamat lords over chromatic dragons with an iron claw, and Bahamut inspires goodness in his followers, most gem dragons don’t pay all that much mind to Sardior: the ruby dragon. 
 
@@ -96,7 +98,7 @@ Fighting Sardior as a mythic encounter is equivalent to fighting two CR [CR] cre
 
 *Gargantuan Dragon, Always Neutral*
 
-<div class="feature">
+<div class="hanging">
 
 **Armor Class** 25 (natural armor)
 
@@ -114,7 +116,7 @@ Fighting Sardior as a mythic encounter is equivalent to fighting two CR [CR] cre
 
 <img src="/img/blog/arrow.png">
 
-<div class="feature">
+<div class="hanging">
 
 **Saving Throws** Constitution +19, Intelligence +19, Charisma +18
 
@@ -134,7 +136,7 @@ Fighting Sardior as a mythic encounter is equivalent to fighting two CR [CR] cre
 
 <img src="/img/blog/arrow.png">
 
-<div class="feature">
+<div class="hanging">
 
 **Discorporation.** When Sardior dies, his body is destroyed but his essence travels back to his Ruby Castle, and he is unable to take physical form for a time.
 
@@ -152,7 +154,7 @@ At Will: <a href="https://www.dndbeyond.com/spells/animal-friendship">animal fri
 
 </div>
 
-<div class="feature">
+<div class="hanging">
 
 **Legendary Resistance (5/Day).** If Sardior fails a saving throw, he can choose to succeed instead.
 
@@ -170,7 +172,7 @@ At Will: <a href="https://www.dndbeyond.com/spells/animal-friendship">animal fri
 
 ### Actions
 
-<div class="feature">
+<div class="hanging">
 
 ***Multiattack.*** Sardior can use his Frightful Presence. He then makes four attacks: one with his bite, one with his tail and two with his claws.
 
@@ -182,17 +184,14 @@ At Will: <a href="https://www.dndbeyond.com/spells/animal-friendship">animal fri
 
 ***Breath Weapons (Recharge 5-6).*** Sardior uses one of the following breath weapons:
 
-</div>
 
-<div class="hanging">
+<div style="margin-left: 30px;>
 
 *Concussive Breath.* Sardior exhales concussive force in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 27 Dexterity saving throw, taking 70 (20d6) force damage on a failed save or half as much damage on a successful one. Creatures reduced to 0 hit points by this breath weapon are not dying and instead are stabilized automatically.
 
 *Blazing Radiance.* Sardior exhales a blast of radiant fire in a 90-foot cone. Each creature in the area must make a DC 27 Dexterity saving throw, taking 31 (7d8) fire damage and 31 (7d8) radiant damage.
 
 </div>
-
-<div class="feature">
 	
 ***Frightful Presence.*** Each creature of Sardior’s choice that is within 240 feet of him and aware of him must succeed on a DC 26 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Sardior's Frightful Presence for the next 24 hours.
 
@@ -200,7 +199,7 @@ At Will: <a href="https://www.dndbeyond.com/spells/animal-friendship">animal fri
 
 ### Bonus Actions
 
-<div class="feature">
+<div class="hanging">
 
 ***Quick Breath.*** Sardior attempts to recharge his breath weapon.
 
