@@ -9,6 +9,13 @@ main a {
 	font-style:	italic;
 	font-weight:	bold;
 }
+main .feature {
+	text-indent: 2em;
+}
+main .hanging {
+	text-indent: -2em;
+	margin-left: 2em;
+}
 main table {
 	border-spacing:	5px;
 }
@@ -30,6 +37,7 @@ main .editor {
 	margin-right:	15px;
 	padding-left:	10px;
 	padding-right:	10px;
+	padding-top:	10px;
 	padding-bottom:	5px;
 	background-color:	rgba(128, 187, 59, 0.25);
 }
@@ -88,11 +96,15 @@ Fighting Sardior as a mythic encounter is equivalent to fighting two CR [CR] cre
 
 *Gargantuan Dragon, Always Neutral*
 
+<div class="feature">
+
 **Armor Class** 25 (natural armor)
 
 **Hit Points** 615 (30d20 + 300)
 
 **Speed** 60 ft., climb 40 ft., fly 120 ft.
+
+</div>
 
 <img src="/img/blog/arrow.png">
 
@@ -101,6 +113,8 @@ Fighting Sardior as a mythic encounter is equivalent to fighting two CR [CR] cre
 |  28 (+9)  |  12 (+1)  |  30 (+10)  |  30 (+10)  |  26 (+8)  |  29 (+9)  |
 
 <img src="/img/blog/arrow.png">
+
+<div class="feature">
 
 **Saving Throws** Constitution +19, Intelligence +19, Charisma +18
 
@@ -116,11 +130,17 @@ Fighting Sardior as a mythic encounter is equivalent to fighting two CR [CR] cre
 
 **Challenge** 30 (155,000 XP; Proficiency Bonus +9)
 
+</div>
+
 <img src="/img/blog/arrow.png">
+
+<div class="feature">
 
 **Discorporation.** When Sardior dies, his body is destroyed but his essence travels back to his Ruby Castle, and he is unable to take physical form for a time.
 
 **Innate Psionics.** Sardior’s innate spellcasting ability his Intelligence (spell save DC 17). He can innately cast the following spells, requiring no components:
+
+</div>
 
 <div class="spelllist">
 
@@ -132,6 +152,8 @@ At Will: <a href="https://www.dndbeyond.com/spells/animal-friendship">animal fri
 
 </div>
 
+<div class="feature">
+
 **Legendary Resistance (5/Day).** If Sardior fails a saving throw, he can choose to succeed instead.
 
 **Limited Magic Immunity.** Unless he wishes to be affected, Sardior is immune to spells of 6th level or lower. He has advantage on saving throws against all other spells and magical effects.
@@ -142,9 +164,13 @@ At Will: <a href="https://www.dndbeyond.com/spells/animal-friendship">animal fri
 
 **Regeneration.** Sardior regains 30 hit points at the start of his turn.
 
-**Sensitive Mind.** Sardior is constantly benefitting from the effects of <a href="https://www.dndbeyond.com/spells/detect-evil-and-good">detect evil and good</a>, <a href="https://www.dndbeyond.com/spells/detect-magic">detect magic</a>, <a href="https://www.dndbeyond.com/spells/find-the-path">find the path</a>, and <a href="https://www.dndbeyond.com/spells/find-traps">find traps</a>. 
+**Sensitive Mind.** Sardior is constantly benefitting from the effects of <a href="https://www.dndbeyond.com/spells/detect-evil-and-good">detect evil and good</a>, <a href="https://www.dndbeyond.com/spells/detect-magic">detect magic</a>, <a href="https://www.dndbeyond.com/spells/find-the-path">find the path</a>, and <a href="https://www.dndbeyond.com/spells/find-traps">find traps</a>.
+
+</div>
 
 ### Actions
+
+<div class="feature">
 
 ***Multiattack.*** Sardior can use his Frightful Presence. He then makes four attacks: one with his bite, one with his tail and two with his claws.
 
@@ -155,18 +181,36 @@ At Will: <a href="https://www.dndbeyond.com/spells/animal-friendship">animal fri
 ***Tail.*** *Melee Weapon Attack:* +17 to hit, reach 25 ft., one target. *Hit:* 36 (4d12 + 10) bludgeoning damage.
 
 ***Breath Weapons (Recharge 5-6).*** Sardior uses one of the following breath weapons:
-- *Concussive Breath.* Sardior exhales concussive force in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 27 Dexterity saving throw, taking 70 (20d6) force damage on a failed save or half as much damage on a successful one. Creatures reduced to 0 hit points by this breath weapon are not dying and instead are stabilized automatically.
-- *Blazing Radiance.* Sardior exhales a blast of radiant fire in a 90-foot cone. Each creature in the area must make a DC 27 Dexterity saving throw, taking 31 (7d8) fire damage and 31 (7d8) radiant damage.
+
+</div>
+
+<div class="hanging">
+
+*Concussive Breath.* Sardior exhales concussive force in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 27 Dexterity saving throw, taking 70 (20d6) force damage on a failed save or half as much damage on a successful one. Creatures reduced to 0 hit points by this breath weapon are not dying and instead are stabilized automatically.
+
+*Blazing Radiance.* Sardior exhales a blast of radiant fire in a 90-foot cone. Each creature in the area must make a DC 27 Dexterity saving throw, taking 31 (7d8) fire damage and 31 (7d8) radiant damage.
+
+</div>
+
+<div class="feature">
 	
 ***Frightful Presence.*** Each creature of Sardior’s choice that is within 240 feet of him and aware of him must succeed on a DC 26 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Sardior's Frightful Presence for the next 24 hours.
 
+</div>
+
 ### Bonus Actions
 
+<div class="feature">
+
 ***Quick Breath.*** Sardior attempts to recharge his breath weapon.
+
+</div>
 
 ### Legendary Actions
 
 Sardior can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Sardior regains spent legendary actions at the start of his turn.
+
+<div class="hanging">
 
 ***Express Psionics (Variable cost).*** Sardior casts one of his innate psionics. At will powers use 1 legendary action. 3/day use 2 legendary actions. 1/day use 3 legendary actions.
 
@@ -174,9 +218,13 @@ Sardior can take 3 legendary actions, choosing from the options below. Only one 
 
 ***Wing Attack.*** Sardior beats his wings. Each creature within 15 feet of Sardior must succeed on a DC 27 Dexterity saving throw or take 24 (4d6 + 10) bludgeoning damage and be knocked prone. Sardior can then fly up to half his flying speed.
 
+</div>
+
 ### Mythic Actions
 
 If Sardior is a Mythic encounter, he can choose from the options below as additional legendary actions while [condition, usually thp from trait]:
+
+<div class="hanging">
 
 ***Dive Bomb. (Costs 2 actions).*** Sardior moves up to half his flying speed away from the ground. This movement does not provoke opportunity attacks. At the start of his next turn, Sardior immediately plummets directly towards the ground, creating a large shockwave in a sphere with a radius of 5 feet for every 5 feet of movement Sardior plummeted. Each creature within this sphere must succeed on a DC 27 Dexterity saving throw or be knocked prone and pushed 15 feet directly away from Sardior. Creatures who succeed on this saving throw instead are only pushed 5 feet directly away from Sardior and not knocked prone unless that movement causes them to collide with a creature or structure.
 
@@ -184,3 +232,10 @@ If Sardior is a Mythic encounter, he can choose from the options below as additi
 
 ***Reflective Scales.*** Sardior’s scales shift and twist like prisms. As a reaction before the start of his next turn, whenever a spell is cast on Sardior and he succeeds on his saving throw, Sardior can choose one creature that he can see who is a valid target for the spell and it is cast upon them instead.
 
+</div>
+
+---
+
+## About the Author
+
+You can find more of Bryan's work at his website <a href="https://fallenwyvern.github.io/DMsGuild-Product-Page/">here</a> and can follow him at <a href="https://twitter.com/FallenWyvern">Twitter</a>.
