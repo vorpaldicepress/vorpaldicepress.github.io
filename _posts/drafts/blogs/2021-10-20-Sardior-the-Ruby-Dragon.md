@@ -13,7 +13,7 @@ main table {
   border-spacing: 5px;
 }
 main h2 {
-  padding-bottom: 2px;
+  margin-bottom: 2px;
 }
 </style>
 
