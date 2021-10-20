@@ -11,12 +11,13 @@ main a {
 }
 </style>
 
+<center>*Sardior, the Ruby Dragon is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.*</center>
+
 <div style="float: right; shape-outside: url('/img/blog/niv_mizzet_raymond_swanland.png');">
 <img title="Niv Mizzet, Reborn by Raymond Swanland, copyright Wizards of the Coast" src="/img/blog/niv_mizzet_raymond_swanland.png" style="shape-margin: 1em; shape-image-threshold: .3;" />
 </div>
 
 #### Written by Bryan Holmes
-<center>*Sardior, the Ruby Dragon is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.*</center>
 
 While the great chromatic and metallic dragons wage battles and intrigue, sometimes in the name of Bahamut or Tiamat, the gem dragons are content with more philosophical ways, enjoying contemplation and meditation. While Tiamat lords over chromatic dragons with an iron claw, and Bahamut inspires goodness in his followers, most gem dragons don’t pay all that much mind to Sardior: the ruby dragon. 
 
@@ -31,6 +32,9 @@ Sardior is playful, enjoying intellectual exercises with other creatures. He als
 **Flaw.** “My ascension to divinity makes it easy to understand the big picture, but hard to see the impact on individuals.”
 
 > DMs wanting to know more about Sardior should check out the following books: “That’s not in the Monster Manual” from *Dragon* #37,  *Planes of Law*, and “The Legend of Sardior, The Mind’s Eye” from the *Wizards of the Coast website* (found <a href="http://archive.wizards.com/default.asp?x=dnd/psm/20030124a">here</a>)
+
+#### Editor's Note:
+While not Bryan's intention, while reading this over I couldn't help but think of <a href="https://mtg.fandom.com/wiki/Niv-Mizzet">Niv Mizzet</a>, from the Magic: the Gathering world of Ravnica. Sardior's statblock, as presented below, could be used for Niv Mizzet if you are using the setting guide *Guildmaster's Guide to Ravnica*! Bonus!
 
 ### Sardior’s Lair
 The Ruby Palace is a flying castle which travels the material plane high above the world. Clouds generate around the castle as threads of the astral plane boil away around the fortress. If the palace remains in place for at least one week, the regional effects of the castle begin to spread out at a rate of 1 mile per day, to a maximum of 8 miles.
