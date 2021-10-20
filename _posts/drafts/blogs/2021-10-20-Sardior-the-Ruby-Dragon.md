@@ -184,14 +184,9 @@ At Will: <a href="https://www.dndbeyond.com/spells/animal-friendship">animal fri
 
 ***Breath Weapons (Recharge 5-6).*** Sardior uses one of the following breath weapons:
 
-
-<div style="margin-left: 30px;>
-
 *Concussive Breath.* Sardior exhales concussive force in a 120-foot line that is 10 feet wide. Each creature in that line must make a DC 27 Dexterity saving throw, taking 70 (20d6) force damage on a failed save or half as much damage on a successful one. Creatures reduced to 0 hit points by this breath weapon are not dying and instead are stabilized automatically.
 
 *Blazing Radiance.* Sardior exhales a blast of radiant fire in a 90-foot cone. Each creature in the area must make a DC 27 Dexterity saving throw, taking 31 (7d8) fire damage and 31 (7d8) radiant damage.
-
-</div>
 	
 ***Frightful Presence.*** Each creature of Sardior’s choice that is within 240 feet of him and aware of him must succeed on a DC 26 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to Sardior's Frightful Presence for the next 24 hours.
 
