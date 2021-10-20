@@ -9,6 +9,9 @@ main a {
   font-style: italic;
   font-weight: bold;
 }
+main table {
+  border-spacing: 10px;
+}
 </style>
 
 <center>*Sardior, the Ruby Dragon is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.*</center>
@@ -70,7 +73,7 @@ Fighting Sardior as a mythic encounter is equivalent to fighting two CR [CR] cre
 
 **Speed** 60 ft., climb 40 ft., fly 120 ft.
 
-|Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma|
+|STR|DEX|CON|INT|WIS|CHA|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |  28 (+9)  |  12 (+1)  |  30 (+10)  |  30 (+10)  |  26 (+8)  |  29 (+9)  |
 
