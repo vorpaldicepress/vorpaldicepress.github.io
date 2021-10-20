@@ -38,29 +38,40 @@ The Ruby Palace is a flying castle which travels the material plane high above t
 ### Sardior as a Mythic Encounter
 Sardior is a powerful encounter on his own, but if the adventurers want a true challenge fit for the gods, you can use his [Mythic Trait] trait. Using this trait marks a drastic turn in the encounter as [very short description of what occurs]. Once Sardior has used this trait, he can choose one of his mythic actions when he uses a legendary action.
 Read or paraphrase the following text when Sardior uses his [Mythic Trait] trait:
-Description, in italics, detailing what occurs when the Mythic Trait triggers
-Rewards
+
+> Description, in italics, detailing what occurs when the Mythic Trait triggers
+
+#### Rewards
 Fighting Sardior as a mythic encounter is equivalent to fighting two CR [CR] creatures in one encounter. Award a party [2xXP] XP for defeating Sardior after he uses [Mythic Trait]. You can also reward them with [item reward 1, item reward 2, etc], and the spell [spell reward 1, spell reward 2] in addition to any other treasure he might hold.
 
 ---
 
 ## Sardior
-*Gargantuan dragon, neutral*
+
+*Gargantuan Dragon, Always Neutral*
 
 **Armor Class** 25 (natural armor)
+
 **Hit Points** 615 (30d20 + 300)
+
 **Speed** 60 ft., climb 40 ft., fly 120 ft.
 
 |Str|Dex|Con|Int|Wis|Cha|
 |:-:|:-:|:-:|:-:|:-:|:-:|
-|28 (+9)|12 (+1)|30 (+10)|30 (+10)|26 (+8)|29 (+9)|
+|  28 (+9)  |  12 (+1)  |  30 (+10)  |  30 (+10)  |  26 (+8)  |  29 (+9)  |
 
 **Saving Throws** Constitution +19, Intelligence +19, Charisma +18
+
 **Skills** Arcana +17, History +17, Nature +17, Perception +26, Religion +17
+
 **Damage Immunities** fire, force, psychic, radiant; bludgeoning, piercing, and slashing damage from nonmagical attacks
+
 **Condition Immunities** blinded, charmed, deafened, frightened, poisoned, stunned
+
 **Senses** darkvision 120 ft., truesight 120 ft., passive Perception 36
+
 **Languages** All, telepathy 120 ft.
+
 **Challenge** 30 (155,000 XP; Proficiency Bonus +9)
 
 **Discorporation.** When Sardior dies, his body is destroyed but his essence travels back to his Ruby Castle, and he is unable to take physical form for a time.
