@@ -12,7 +12,13 @@ main a {
 main table {
 	border-spacing:	5px;
 }
-main h {
+main h2 {
+	margin-bottom:	2px;
+}
+main h3 {
+	margin-bottom:	2px;
+}
+main h4 {
 	margin-bottom:	2px;
 }
 main .spelllist {
@@ -22,7 +28,10 @@ main .editor {
 	width: 75%;
 	margin-left:	15px;
 	margin-right:	15px;
-	padding:	10px;
+	padding-left:	10px;
+	padding-right:	10px;
+	padding-top:	5px;
+	padding-bottom:	5px;
 	background-color:	#80bb3b;
 }
 </style>
@@ -86,13 +95,13 @@ Fighting Sardior as a mythic encounter is equivalent to fighting two CR [CR] cre
 
 **Speed** 60 ft., climb 40 ft., fly 120 ft.
 
----
+<img src="img/blog/arrow.png">
 
 |STR|DEX|CON|INT|WIS|CHA|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |  28 (+9)  |  12 (+1)  |  30 (+10)  |  30 (+10)  |  26 (+8)  |  29 (+9)  |
 
----
+<img src="img/blog/arrow.png">
 
 **Saving Throws** Constitution +19, Intelligence +19, Charisma +18
 
@@ -108,7 +117,7 @@ Fighting Sardior as a mythic encounter is equivalent to fighting two CR [CR] cre
 
 **Challenge** 30 (155,000 XP; Proficiency Bonus +9)
 
----
+<img src="img/blog/arrow.png">
 
 **Discorporation.** When Sardior dies, his body is destroyed but his essence travels back to his Ruby Castle, and he is unable to take physical form for a time.
 
