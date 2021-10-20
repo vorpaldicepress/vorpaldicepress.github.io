@@ -2,6 +2,15 @@
   title: Sardior, the Ruby Dragon
 ---
 
+<style>
+main a {
+  color: #4f115f;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: normal;
+}
+</style>
+
 <div style="float: right; shape-outside: url('/img/blog/niv_mizzet_raymond_swanland.png');">
 <img title="Niv Mizzet, Reborn by Raymond Swanland, copyright Wizards of the Coast" src="/img/blog/niv_mizzet_raymond_swanland.png" style="shape-margin: 1em; shape-image-threshold: .3;" />
 </div>
@@ -57,9 +66,11 @@ Fighting Sardior as a mythic encounter is equivalent to fighting two CR [CR] cre
 
 **Speed** 60 ft., climb 40 ft., fly 120 ft.
 
-|Str|Dex|Con|Int|Wis|Cha|
+|Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |  28 (+9)  |  12 (+1)  |  30 (+10)  |  30 (+10)  |  26 (+8)  |  29 (+9)  |
+
+---
 
 **Saving Throws** Constitution +19, Intelligence +19, Charisma +18
 
@@ -75,12 +86,16 @@ Fighting Sardior as a mythic encounter is equivalent to fighting two CR [CR] cre
 
 **Challenge** 30 (155,000 XP; Proficiency Bonus +9)
 
+---
+
 **Discorporation.** When Sardior dies, his body is destroyed but his essence travels back to his Ruby Castle, and he is unable to take physical form for a time.
 
 **Innate Psionics.** Sardior’s innate spellcasting ability his Intelligence (spell save DC 17). He can innately cast the following spells, requiring no components:
 
 At Will: <a href="https://www.dndbeyond.com/spells/animal-friendship">animal friendship</a>, <a href="https://www.dndbeyond.com/spells/arcane-eye">arcane eye</a>, <a href="https://www.dndbeyond.com/spells/augury">augury</a>, <a href="https://www.dndbeyond.com/spells/calm-emotions">calm emotions</a>, <a href="https://www.dndbeyond.com/spells/detect-thoughts">detect thoughts</a>, <a href="https://www.dndbeyond.com/spells/enthrall">enthrall</a>, <a href="https://www.dndbeyond.com/spells/locate-animals-or-plants">locate animals or plants</a>, <a href="https://www.dndbeyond.com/spells/locate-creature">locate creature</a>, <a href="https://www.dndbeyond.com/spells/locate-object">locate object</a>, <a href="https://www.dndbeyond.com/spells/sleep">sleep</a>.
+
 3/day each: <a href="https://www.dndbeyond.com/spells/charm-monster">charm monster</a>, <a href="https://www.dndbeyond.com/spells/clairvoyance">clairvoyance</a>, <a href="https://www.dndbeyond.com/spells/command">command</a>, <a href="https://www.dndbeyond.com/spells/confusion">confusion</a>, <a href="https://www.dndbeyond.com/spells/dream">dream</a>, <a href="https://www.dndbeyond.com/spells/hold-monster">hold monster</a>, <a href="https://www.dndbeyond.com/spells/hypnotic-pattern">hypnotic pattern</a>, <a href="https://www.dndbeyond.com/spells/mislead">mislead</a>.
+
 1/day each: <a href="https://www.dndbeyond.com/spells/antipathy-sympathy">antipathy/sympathy</a>, <a href="https://www.dndbeyond.com/spells/compulsion">compulsion</a>, <a href="https://www.dndbeyond.com/spells/dominate-monster">dominate monster</a>, <a href="https://www.dndbeyond.com/spells/feeblemind">feeblemind</a>, <a href="https://www.dndbeyond.com/spells/mass-suggestion">mass suggestion</a>.
 
 **Legendary Resistance (5/Day).** If Sardior fails a saving throw, he can choose to succeed instead.
