@@ -94,7 +94,7 @@ paginate_path: "/page/:num/"
 
 #sets the maximum number of blogs visible on the homepage
 blog_limit: 1
-#sets the maximum number of blogs visible on the homepage
+#sets the maximum number of reviews visible on the homepage
 review_limit: 3
 
 
