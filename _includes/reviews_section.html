@@ -1,30 +1,37 @@
+{% assign review_count = 0 %}
+
 <section id="reviews">
   <div class="width-wrapper">
-    {% for post in site.categories.reviews limit: site.review_limit %}
-    {% unless post.categories contains "drafts" %}
-      {% if post.product_image_anchor == "center" %}
-        {% assign align = "center" %}
-      {% elsif post.product_image_anchor == "bottom" %}
-        {% assign align = "flex-end" %}
-      {% else %}
-        {% assign align = "flex-start" %}
+    {% for post in site.categories.reviews %}
+      {% if review_count == site.review_limit %}
+        {% break %}
       {% endif %}
-      <div class="review">
-        <div class="review-wrapper">
-          <div class="review-image"><a style="align-items:{{ align }}" href="{{ post.url }}"><img src="{{ post.review_image }}" /></a></div>
-          <div class="review-content">
-            <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
-            <p class="subtle subtitle">{{ post.date | date: '%B %d, %Y' }}</p>
 
-            {{ post.content }}
+      {% unless post.categories contains "drafts" %}
+        {% if post.product_image_anchor == "center" %}
+          {% assign align = "center" %}
+        {% elsif post.product_image_anchor == "bottom" %}
+          {% assign align = "flex-end" %}
+        {% else %}
+          {% assign align = "flex-start" %}
+        {% endif %}
+        <div class="review">
+          <div class="review-wrapper">
+            <div class="review-image"><a style="align-items:{{ align }}" href="{{ post.url }}"><img src="{{ post.review_image }}" /></a></div>
+            <div class="review-content">
+              <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+              <p class="subtle subtitle">{{ post.date | date: '%B %d, %Y' }}</p>
+
+              {{ post.content }}
+            </div>
+          </div>
+          <div class="read-more">
+            <div></div>
+            <div><a href="{{ post.url }}">Read More...</a></div>
           </div>
         </div>
-        <div class="read-more">
-          <div></div>
-          <div><a href="{{ post.url }}">Read More...</a></div>
-        </div>
-      </div>
-    {% endunless %}
+        {% assign review_count = review_count | plus: 1 %}
+      {% endunless %}
     {% endfor %}
   </div>
 </section>
