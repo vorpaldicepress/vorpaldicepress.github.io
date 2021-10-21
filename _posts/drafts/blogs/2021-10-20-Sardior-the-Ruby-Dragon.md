@@ -94,7 +94,7 @@ Read or paraphrase the following text when Sardior uses his [Mythic Trait] trait
 > Description, in italics, detailing what occurs when the Mythic Trait triggers
 
 #### Rewards
-Fighting Sardior as a mythic encounter is equivalent to fighting two CR [CR] creatures in one encounter. Award a party [2xXP] XP for defeating Sardior after he uses [Mythic Trait]. You can also reward them with [item reward 1, item reward 2, etc], and the spell [spell reward 1, spell reward 2] in addition to any other treasure he might hold.
+Fighting Sardior as a mythic encounter is equivalent to fighting two CR [CR] creatures in one encounter. Award a party [2xXP] XP for defeating Sardior after he uses [Mythic Trait]. You can also reward them with <a href="#Ruby-of-Free-Thought">Ruby of Free Thought</a> and the spell [spell reward 1, spell reward 2] in addition to any other treasure he might hold.
 
 ## Sardior
 
@@ -229,6 +229,35 @@ If Sardior is a Mythic encounter, he can choose from the options below as additi
 ***Reflective Scales.*** Sardior’s scales shift and twist like prisms. As a reaction before the start of his next turn, whenever a spell is cast on Sardior and he succeeds on his saving throw, Sardior can choose one creature that he can see who is a valid target for the spell and it is cast upon them instead.
 
 </div>
+
+## Rewards
+Below are spells and magical items you can reward your party for defeating Sardior, the Ruby Dragon.
+
+### Ruby of Free Thought
+*Wondrous item, mythic (requires attunement by a spellcaster)*
+
+One of the many ruby scales that comprise Sardior’s tough exterior that gleams brighter and more radiant than the others. This scale—which could easily be mistaken for a gemstone—can impart powerful psionic power to a spellcaster who chooses to attune to it.
+
+***Psionics.*** When you attune to the ruby, your mind begins to race at a pace previously unknown to you. You gain the ability to cast some of your spells without expending spell slots or using components.
+
+<div class="spelllist">
+
+At Will: *Any 1st-level spell you know.*
+
+3/day: *Any spell you know up to 5th-level.*
+
+1/day: *Any spell you know up to 9th-level.*
+
+</div>
+
+***Empty Mind.*** While attuned to the scale, you are always under the effects of the spell <a href="https://www.dndbeyond.com/spells/mind-blank/">mind blank</a>. If a spell or effect would attempt to sense your emotions or read your thoughts, you can choose to share any information you’d like, or nothing at all.
+
+***Sentience.*** The Ruby of Free Thought is a sentient object of neutral alignment, with an Intelligence of 30, Wisdom of 26, and Charisma of 29. It has hearing and blindsight out to a range of 300 feet, and it can communicate telepathically with any creature within that range.
+
+***Personality.*** The ruby, while sentient, does not contain Sardior’s true mind but instead a sort of pseudo-intelligence designed to share specific information with whomever it attunes to. It instructs its bearer on psionic teachings and practices, and will take any opportunity to lead the bearer back to the Ruby Palace, or to a nearby gem dragon who can assist in reaching the palace. It harbors no ill will towards its bearer and will share whatever information it can to help protect them, but its ultimate goal is to be reunited with Sardior.
+
+***Destroying the Ruby.*** The ruby is a powerful artifact, immune to the effects of all traditional forms of damage. To destroy the ruby, it must be brought to a hidden location within the Ruby Palace: the chamber where Sardior keeps the fragments of the egg from which he hatched.
+
 
 ---
 
