@@ -94,7 +94,7 @@ Read or paraphrase the following text when Sardior uses his [Mythic Trait] trait
 > Description, in italics, detailing what occurs when the Mythic Trait triggers
 
 #### Rewards
-Fighting Sardior as a mythic encounter is equivalent to fighting two CR [CR] creatures in one encounter. Award a party [2xXP] XP for defeating Sardior after he uses [Mythic Trait]. You can also reward them with <a href="#Ruby-of-Free-Thought">Ruby of Free Thought</a> and the spell [spell reward 1, spell reward 2] in addition to any other treasure he might hold.
+Fighting Sardior as a mythic encounter is equivalent to fighting two challenge 30 creatures in one encounter. Award a party 310,000 XP for defeating Sardior after he uses [Mythic Trait]. You can also reward them with <a href="#ruby-of-free-thought">Ruby of Free Thought</a> and the spell [spell reward 1, spell reward 2] in addition to any other treasure he might hold.
 
 ## Sardior
 
