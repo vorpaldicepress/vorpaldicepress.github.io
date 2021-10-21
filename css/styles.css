@@ -115,7 +115,7 @@ hr {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  overflow:hidden;
+  overflow: clip;
 }
 .width-wrapper {
   margin: 0px auto;
@@ -466,6 +466,7 @@ footer:hover > .site-logo {
   background: #23042b;
   color: rgba(255, 255, 255, 0.8);
   position: relative;
+  overflow: hidden;
 }
 #footer-content:before {
   content: '';
