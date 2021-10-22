@@ -88,13 +88,17 @@ The Ruby Palace is a flying castle which travels the material plane high above t
 - Clouds within the region become connected to the astral plane.  When a creature spends at least 1 minute within a cloud, when they leave the cloud roll 1d20. On a 19 or 20, they exit in the astral plane. 
 
 ### Sardior as a Mythic Encounter
-Sardior is a powerful encounter on his own, but if the adventurers want a true challenge fit for the gods, you can use his [Mythic Trait] trait. Using this trait marks a drastic turn in the encounter as [very short description of what occurs]. Once Sardior has used this trait, he can choose one of his mythic actions when he uses a legendary action.
-Read or paraphrase the following text when Sardior uses his [Mythic Trait] trait:
+Sardior is a powerful encounter on his own, but if the adventurers want a true challenge fit for the gods, you can use his Ruby Soul trait. Using this trait marks a drastic turn in the encounter as his divine spark flares into overdrive. Once Sardior has used this trait, he can choose one of his mythic actions when he uses a legendary action.
 
-> Description, in italics, detailing what occurs when the Mythic Trait triggers
+Read or paraphrase the following text when Sardior uses his Ruby Soul trait:
+
+> Sardior stands before you, eyes filling with ruby light. It’s then that you notice it: a light burning deep within the gem dragon. This light grows brighter, and brighter, until it’s almost painful to look at.
+
+> “Silly mortals. I’m no mere child of divine blood. I am not a simple chromatic creature, or a scion of metal. I am pure thought! My mind is an infinite plane of contemplation, and now, I contemplate your DOOM!”
+
 
 #### Rewards
-Fighting Sardior as a mythic encounter is equivalent to fighting two challenge 30 creatures in one encounter. Award a party 310,000 XP for defeating Sardior after he uses [Mythic Trait]. You can also reward them with <a href="#ruby-of-free-thought">Ruby of Free Thought</a> and the spell [spell reward 1, spell reward 2] in addition to any other treasure he might hold.
+Fighting Sardior as a mythic encounter is equivalent to fighting two CR 30 creatures in one encounter. Award a party 310,000 XP for defeating Sardior after he uses Ruby Soul. You can also reward them with <a href="#ruby-of-free-thought">Ruby of Free Thought</a>, <a href="#resurrection-egg">Resurrection Egg</a>, and the spell <a href="#ruby-armor-of-sardior">Ruby Armor of Sardior</a> in addition to any other treasure he might hold.
 
 ## Sardior
 
@@ -164,7 +168,9 @@ At Will: <a href="https://www.dndbeyond.com/spells/animal-friendship">animal fri
 
 **Magic Weapons.** Sardior’s weapon attacks are magical.
 
-**MYTHIC (Mythic; Recharges after a Short or Long Rest).** When Sardior is reduced to 0 hit points, he does not die. Instead, Sardior {DOES THE THING}. Sardior regains 305 hit points and gains 305 temporary hit points. Additionally, {OTHER STUFF}
+**Ruby Soul (Mythic; Recharges after a Short or Long Rest).** When Sardior is reduced to 0 hit points, he does not die. Instead, Sardior is filled with divine wrath. Sardior regains 305 hit points and gains 305 temporary hit points. 
+
+Additionally, Sardior casts bright light in a 250-foot radius, and dim light 250 feet beyond that. Spells which magically create darkness are automatically counterspelled within this area. Creatures who fail their saving throws caused by Sardior’s breath weapons while in the area of bright light are also blinded until the start of their next turn.
 
 **Regeneration.** Sardior regains 30 hit points at the start of his turn.
 
@@ -218,7 +224,7 @@ Sardior can take 3 legendary actions, choosing from the options below. Only one 
 
 ### Mythic Actions
 
-If Sardior is a Mythic encounter, he can choose from the options below as additional legendary actions while [condition, usually thp from trait]:
+If Sardior is a Mythic encounter, he can choose from the options below as additional legendary actions for 1 hour after using the Ruby Soul mythic trait:
 
 <div class="hanging">
 
@@ -257,6 +263,40 @@ At Will: *Any 1st-level spell you know.*
 ***Personality.*** The ruby, while sentient, does not contain Sardior’s true mind but instead a sort of pseudo-intelligence designed to share specific information with whomever it attunes to. It instructs its bearer on psionic teachings and practices, and will take any opportunity to lead the bearer back to the Ruby Palace, or to a nearby gem dragon who can assist in reaching the palace. It harbors no ill will towards its bearer and will share whatever information it can to help protect them, but its ultimate goal is to be reunited with Sardior.
 
 ***Destroying the Ruby.*** The ruby is a powerful artifact, immune to the effects of all traditional forms of damage. To destroy the ruby, it must be brought to a hidden location within the Ruby Palace: the chamber where Sardior keeps the fragments of the egg from which he hatched.
+
+### Resurrection Egg
+*Wonderous item, mythic (requires attunement)*
+
+This egg resembles a very large ruby egg roughly the size of a halfling. This egg is always warm, regardless of the actual temperature surrounding it. When a creature puts their ear to the egg, they hear a deep heartbeat within.
+
+When the creature attuned to this egg dies, they can choose one of the two following effects to occur 7 days later:
+
+***Resurrection.*** The attuned creature is resurrected as per the spell <a href="https://www.dndbeyond.com/spells/resurrection/">resurrection</a> with no drawbacks.
+
+***Reincarnate.*** The attuned creature is reincarnated as per the spell <a href="https://www.dndbeyond.com/spells/reincarnate/">reincarnate</a>. The attuned creature can choose from the table which creature they’re reincarnated as.
+
+When a creature is brought back to life using either spell, the creature loses attunement and the egg hatches and a new adult gem dragon is born (d6: 1 - Amethyst, 2 - Emerald, 3 - Sapphire, 4 - Topaz, 5 - Crystal, reroll any 6) and a new egg grows in the hoard of a gem dragon. That gem dragon will become Sardior in the event of his death.
+
+### Ruby Armor of Sardior
+*6th-level abjuration (mythic)*
+
+<div class="hanging">
+
+**Casting Time:** 1 action
+
+**Range:** Self
+
+**Components:** V, S, M (a ruby of any value)
+
+**Duration:** 24 hours
+
+**Classes:** Wizard
+
+</div>
+
+Crushing the ruby used in casting the spell into a dust, and then coating your skin with it, a protective spell is raised. This shield has a total hit point value equal to the GP value of the gem used in casting the spell. Whenever you take damage or when you fail your saving throw against a spell or magical effect from a creature, you can use your reaction to negate it.
+
+Negating damage in this way reduces the remaining hit points of the shield by the amount of damage dealt. Negating a spell in this way reduces the remaining hit points of the shield by ten times the level of the spell. Negating a magical effect in this way reduces the remaining hit points of the shield by ten times the CR of the creature.
 
 
 ---
