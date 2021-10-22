@@ -43,10 +43,6 @@ main .editor {
 }
 </style>
 
-<center><i>Sardior, the Ruby Dragon is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</i></center>
-
-<br />
-
 <div style="float: right; shape-outside: url('/img/blog/niv_mizzet_raymond_swanland.png');">
 <img title="Niv Mizzet, Reborn by Raymond Swanland, copyright Wizards of the Coast" src="/img/blog/niv_mizzet_raymond_swanland.png" style="shape-margin: 1em; shape-image-threshold: .3; padding-bottom: 2em;" />
 </div>
@@ -304,3 +300,5 @@ Negating damage in this way reduces the remaining hit points of the shield by th
 ## About the Author
 
 You can find more of Bryan's work at his website <a href="https://fallenwyvern.github.io/DMsGuild-Product-Page/">here</a> and can follow him at <a href="https://twitter.com/FallenWyvern">Twitter</a>.
+
+<center><i>Sardior, the Ruby Dragon is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</i></center>
