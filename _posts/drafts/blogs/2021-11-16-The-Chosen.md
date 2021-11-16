@@ -69,7 +69,7 @@ Font of Magic is, in my opinion, the best feature that a Sorcerer has for class 
 
 These right here:
 
-<img src="/img/blog/font-of-magic.png" />
+<img src="/img/blog/font_of_magic.png" />
 
 This *feels* sorcerous and is unique to the Sorcerer. Much more interesting than what the Sorcerer typically gets with Font of Magic.
 
