@@ -22,7 +22,7 @@ product_license: Fan Content Policy
 product_feature_start: 2021-11-22
 product_feature_end: 2050-11-22
 # this can also be a link to an image you upload to the site. If it is, it must start with a "/" or be a full link
-product_image: /img/products/chosen_new.png
+product_image: /img/products/cover_new.png
 publisher_type: Self
 publisher_name: Vorpal Dice Press
 product_contributors:
@@ -47,9 +47,6 @@ product_links:
 
 # anything below this triple dash is considered content and can be markup or html. It should be fully HTML compatible as long as your tags are formatted correctly.
 ---
-
-### Chosen
-
 Chosen are extraordinary users of magic. Their innate or natural ability to manifest magic and wield it is intrinsic to their very being and as such every part of their life is suffused with magic. Chosen are more likely to open a door by pushing it with a conjured gust of wind than by using their hands. They require no formal training to call upon magic, relying instead on simply doing it so often it becomes effortless. The absence of training also means a chosen’s magic can be much unlike that of a learned caster. Where a wizard will follow the formula to conjure a fireball to the letter—producing the same, expected red ball of flame each time—a chosen’s fireball might be irregular or explode into existence with force. Such effects might be a personal flourish, or unexpected circumstance.
 
 #### Manifestation of your Power
