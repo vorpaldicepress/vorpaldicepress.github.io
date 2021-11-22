@@ -4,6 +4,8 @@
   <div class="width-wrapper">
     <div class="slider">
       {% for post in site.categories.products %}
+        {% unless post.categories contains "drafts" %}
+
         {% assign feature_start = post.product_feature_start | convert: "date" | date: "%Y-%m-%d" %}
         {% assign feature_end = post.product_feature_end | convert: "date" | date: "%Y-%m-%d" %}
         {% assign build_days = build_date | date: "%s" | divided_by: 86400 %}
@@ -14,6 +16,8 @@
             <a href="{{ post.url }}"><img src="{{ post.product_image }}" alt="{{ post.title }}. {{ post.tagline }}" /></a>
           </div>
         {% endif %}
+        
+        {% endunless %}
       {% endfor %}
     </div>
   </div>
