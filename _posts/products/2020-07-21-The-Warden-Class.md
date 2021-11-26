@@ -41,13 +41,16 @@ product_pagecount: 20
 product_print: true
 # price of the product at each location
 product_prices:
+    Black Friday: 4.95
     DTRPG: 4.95
     DTRPG Softcover: 7.95
 # if the product is on sale, this is the final price of the on-sale product for each location that it is on sale. The sales % will be calculated and displayed based on the difference between product_prices and product_sales
 product_sales:
+    Black Friday: 1
     DTRPG:
 # direct link to the product by location
 product_links:
+    Black Friday: https://www.drivethrurpg.com/shopping_cart.php?products_id=317044
     DTRPG: https://www.drivethrurpg.com/product/317044/The-Warden-Class-5e?affiliate_id=1713687
     DTRPG Softcover: https://www.drivethrurpg.com/product/317044/The-Warden-Class-5e?affiliate_id=1713687
 
