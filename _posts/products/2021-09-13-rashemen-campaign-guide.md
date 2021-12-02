@@ -67,9 +67,9 @@ product_sales:
   Hardcover:
   Hardcover + PDF: 57.45
 product_links:
-  DMsGuild: https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687
-  Hardcover: https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687
-  Hardcover + PDF: https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687
+  DMsGuild: https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687&src=VDPWebsite
+  Hardcover: https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687&src=VDPWebsite
+  Hardcover + PDF: https://www.dmsguild.com/product/370425/Rashemen--Campaign-Guide?affiliate_id=1713687&src=VDPWebsite
 
 ---
 

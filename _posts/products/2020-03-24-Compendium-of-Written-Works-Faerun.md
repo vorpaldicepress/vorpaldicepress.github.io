@@ -48,9 +48,9 @@ product_sales:
     Discount: 7.95
 # direct link to the product by location
 product_links:
-    DMsGuild: https://www.dmsguild.com/product/307527/The-Compendium-of-Written-Works-Faerun?affiliate_id=1713687
-    DMsGuild Discount: https://www.dmsguild.com/browse.php?discount=93b22a0af6&affiliate_id=1713687
-    Fantasy Grounds: https://www.dmsguild.com/product/309267/The-Compendium-of-Written-Works-Faerun-Fantasy-Grounds?affiliate_id=1713687
+    DMsGuild: https://www.dmsguild.com/product/307527/The-Compendium-of-Written-Works-Faerun?affiliate_id=1713687&src=VDPWebsite
+    DMsGuild Discount: https://www.dmsguild.com/browse.php?discount=93b22a0af6&affiliate_id=1713687&src=VDPWebsite
+    Fantasy Grounds: https://www.dmsguild.com/product/309267/The-Compendium-of-Written-Works-Faerun-Fantasy-Grounds?affiliate_id=1713687&src=VDPWebsite
 
 # anything below this triple dash is considered content and can be markup or html. It should be fully HTML compatible as long as your tags are formatted correctly.
 ---

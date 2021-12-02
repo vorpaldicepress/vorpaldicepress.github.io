@@ -58,7 +58,7 @@ product_prices:
 product_sales:
   DMsGuild:
 product_links:
-  DMsGuild: https://www.dmsguild.com/product/363668/Van-Richtens-Treatise-on-Lycanthropy?affiliate_id=1713687
+  DMsGuild: https://www.dmsguild.com/product/363668/Van-Richtens-Treatise-on-Lycanthropy?affiliate_id=1713687&src=VDPWebsite
 
 ---
 

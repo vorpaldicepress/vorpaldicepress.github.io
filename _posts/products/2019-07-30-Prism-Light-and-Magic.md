@@ -51,9 +51,9 @@ product_sales:
 
 # direct link to the product by location
 product_links:
-    DMsGuild: https://www.dmsguild.com/product/284319/Prism-Light--Magic?affiliate_id=1713687
-    Sidekick Addon: https://www.dmsguild.com/product/283891/Prismatic-Ally-Sidekick?affiliate_id=1713687
-    Character Sheet: https://www.dmsguild.com/product/285192/Prism-Character-Sheet?affiliate_id=1713687
+    DMsGuild: https://www.dmsguild.com/product/284319/Prism-Light--Magic?affiliate_id=1713687&src=VDPWebsite
+    Sidekick Addon: https://www.dmsguild.com/product/283891/Prismatic-Ally-Sidekick?affiliate_id=1713687&src=VDPWebsite
+    Character Sheet: https://www.dmsguild.com/product/285192/Prism-Character-Sheet?affiliate_id=1713687&src=VDPWebsite
 
 # anything below this triple dash is considered content and can be markup or html. It should be fully HTML compatible as long as your tags are formatted correctly.
 ---

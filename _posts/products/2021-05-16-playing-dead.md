@@ -78,9 +78,9 @@ product_sales:
   Softcover:
   Softcover + PDF: 29.99
 product_links:
-  DMsGuild: https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687
-  Softcover: https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687
-  Softcover + PDF: https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687
+  DMsGuild: https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687&src=VDPWebsite
+  Softcover: https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687&src=VDPWebsite
+  Softcover + PDF: https://www.dmsguild.com/product/357681/Playing-Dead?affiliate_id=1713687&src=VDPWebsite
 
 ---
 

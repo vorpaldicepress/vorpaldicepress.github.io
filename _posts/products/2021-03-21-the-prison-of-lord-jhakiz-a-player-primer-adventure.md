@@ -42,7 +42,7 @@ product_prices:
 product_sales:
   DMsGuild:
 product_links:
-  DMsGuild: https://www.dmsguild.com/product/350712/The-Prison-of-Lord-Jhakiz-A-Player-Primer-Adventure?affiliate_id=1713687
+  DMsGuild: https://www.dmsguild.com/product/350712/The-Prison-of-Lord-Jhakiz-A-Player-Primer-Adventure?affiliate_id=1713687&src=VDPWebsite
 
 ---
 

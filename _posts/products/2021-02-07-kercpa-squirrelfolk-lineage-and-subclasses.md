@@ -48,7 +48,7 @@ product_prices:
 product_sales:
   DMsGuild:
 product_links:
-  DMsGuild: https://www.dmsguild.com/browse.php?discount=9964f129c0&affiliate_id=1713687
+  DMsGuild: https://www.dmsguild.com/browse.php?discount=9964f129c0&affiliate_id=1713687&src=VDPWebsite
 
 ---
 

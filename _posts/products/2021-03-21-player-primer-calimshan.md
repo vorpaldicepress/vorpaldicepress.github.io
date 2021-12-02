@@ -45,7 +45,7 @@ product_prices:
 product_sales:
   DMsGuild:
 product_links:
-  DMsGuild: https://www.dmsguild.com/product/350711/Player-Primer-Calimshan?affiliate_id=1713687
+  DMsGuild: https://www.dmsguild.com/product/350711/Player-Primer-Calimshan?affiliate_id=1713687&src=VDPWebsite
 
 ---
 
