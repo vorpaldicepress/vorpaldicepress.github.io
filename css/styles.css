@@ -426,9 +426,9 @@ main {
   .blog-content > a:first-child {
     text-decoration: none;
   }
-  /*.blog-content img {
+  .blog-content img {
     display: none!important;
-  }*/
+  }
 
 /*****        *****/
 /***** FOOTER *****/
