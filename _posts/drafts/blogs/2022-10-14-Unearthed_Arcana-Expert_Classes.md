@@ -32,7 +32,7 @@ main .spelllist {
 	margin-left:	15px;
 }
 main .editor {
-	width: 75%;
+	width: auto;
 	margin-left:	15px;
 	margin-right:	15px;
 	padding-left:	10px;
@@ -57,6 +57,8 @@ Alternatively, you can download my version of the PDF. This version is faithfull
 
 I’m going to detail my thoughts and assessments of the playtest packet here. Most of these things have already been discussed and debated to death but you might find some interesting takes in what I have to say about it.
 
+<img src="https://www.artofmtg.com/wp-content/uploads/2021/07/Inspiring-Bard-Adventures-in-the-Forgotten-Realms-MtG-Art.jpg" alt="An elven bard stands smiling in a forest playing a harp while other creatures reel on the ground holding their ears in pain." />
+
 ## The Bard Class
 
 Lore wise, the Bard is unchanged. They sing the song of creation and weave magic into the world through music.
@@ -65,7 +67,7 @@ You can hear a video of Todd and Jeremy talking about the Bard and College of Lo
 
 ### Base Class
 
-The first thing of note is that the Bard class gains subclass features at levels 3, 6, 10, and 14. The addition of the 10th-level subclass feature means that all past subclass material for the Bard class is now rendered unusable. This is of importance as Wizards has claimed backwards compatibility between OneD&D and 5th Edition. Nobody really knows what Backwards Compatible means and whether it is meant to extend to player options or if it just means Adventures. In the <a href="https://youtu.be/OpI7J9vtbnw?t=180">OneD&D Announcement Video</a>, Makenzie De Armas stated that "All the adventures and supplements that have been released in the last 10 years will still be playable with the new evolution of D&D."
+The first thing of note is that the Bard class gains subclass features at levels 3, 6, 10, and 14. The addition of the 10th-level subclass feature means that all past subclass material for the Bard class is now rendered unusable. This is of importance as Wizards has claimed backwards compatibility between OneD&D and 5th Edition. Nobody really knows what Backwards Compatible means and whether it is meant to extend to player options or if it just means Adventures. In the <a href="https://youtu.be/OpI7J9vtbnw?t=180">OneD&D Announcement Video</a>, Makenzie De Armas stated that "All the adventures and supplements that have been released in the last 10 years will still be playable with the new evolution of D&D." (*thank you <a href="https://twitter.com/DarkplaneDM">Graham Ward (@DarkplaneDM)</a> for directing me to this quote*)
 
 This playtest document says "When playtesting the new version of a Class, you can use a Subclass from an older source, such as the 2014 Player's Handbook or Tasha's Cauldron of Everything. If the old Subclass offers features at levels that are different from the Subclass levels in the Class, follow the older Subclass's level progression after the Class lets you gain the Subclass." — this statement effectively gives the Bard class a dead level at 10th level, but it's also just referring to the playtest.
 
@@ -168,6 +170,8 @@ It would be interesting to see this feature in reverse. Possibly as an extra par
 ### Bard Summary
 
 Overall, I don’t feel as though the Bard has changed significantly balance wise, but the usability is greatly improved. Bardic Inspiration is no longer eating significant action economy, is usable only when needed, and College of Lore really improves Bardic Inspiration. Their available spells are very similar, as many of the Evocation spells they used to enjoy and would no longer be able to take were shifted into other schools (such as Shatter). The Magical Secrets changes resulted in less off-class spells available at any given time but give access to prepare from the whole list in exchange, a noted improvement. I’m not sure if the emphasis on Bard as a Healer is a *change* in how Wizards perceives the class, or more of a clarification of their previous intent. I remember that at one point in 5e’s development, Bard was the mythical long-lost Arcane Half-Caster and capable of producing functional Gish-type characters. I was wondering if we’d have seen a shift back to that in OneD&D but it seems they went the other way.
+
+<img src="https://www.artofmtg.com/wp-content/uploads/2021/06/Drizzt-DoUrden-Adventures-in-the-Forgotten-Realms-MtG-Art.jpg" alt="Drizzt, the drow Ranger jumps through the air with two swords slashing downward on a frost giant, with a huge black panther with claws and fangs bared jumping with him." />
 
 ## The Ranger Class
 
@@ -289,6 +293,8 @@ Things I’d change?
 **Connection to Nature.** Also, I’d grant them another 2nd level feature called Natural Explorer which grants them an expanded list of always-prepared spells, like Songs of Restoration on the Bard, that are flavored around wilderness travel. Spells like *Longstrider*, *Tree Stride*, *Feather Fall*, and similar. I’d probably also give Roving something to benefit moving through nonmagical difficult terrain, maybe. Don’t forget making *Create Bonfire* a PHB spell and putting it on the Ranger suggested Cantrip list.
 
 **Enable All Fighting Styles.** Great Weapon Fighting on a Ranger is keen identity, and with Shields as a base Ranger proficiency, a lack of the Protection and Dueling Fighting Styles seems unnecessary. Just make them all available at 2nd level, instead of a limited selection and the remainder available at 4th level.
+
+<img src="https://www.artofmtg.com/wp-content/uploads/2021/02/Blackbloom-Rogue-Zendikar-Rising-MtG-Art.jpg" alt="A roguish character wearing various types of climbing gear and ropes hangs upside down in a cave with grappling hooks." />
 
 ## The Rogue Class
 
