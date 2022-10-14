@@ -148,7 +148,9 @@ We get some **Bonus Proficiencies** (no longer just any three, but three specifi
 
 **Improved Cutting Words** is our new Level 10 feature. You can now deal damage when you burn someone with Cutting Words. I really like this. It’s a lot like Vicious Mockery but in a different package and feels very appropriate. When the Bardic Inspiration Die becomes a D12, and you have Cunning Inspiration, you’re going to get good Reaction-based damage out of this. For the first time ever, it’s a shame you only get Prof/SR uses of Bardic Inspiration. Although that’s very appropriate for combat as Prof/SR means you can use it every turn of every encounter and never run out of uses (on average); but you won’t be left with any uses for non-combat scenarios.
 
-<div class="editor">**Notes:** Improved Cutting Words models to me what could be a good alternative to Bardic Inspiration: Heal and Songs of Restoration.</div>
+<div class="editor">
+**Notes:** Improved Cutting Words models to me what could be a good alternative to Bardic Inspiration: Heal and Songs of Restoration.
+</div>
 
 > #### Songs of Inspiration
 >
