@@ -43,6 +43,8 @@ main .editor {
 }
 </style>
 
+<div id="top" />
+
 A few weeks ago, Wizards of the Coast dropped the newest playtest packet for OneD&D, *Unearthed Arcana: Expert Classes*. This playtest packet includes the Bard, Ranger, and Rogue classes (each with one subclass); as well as new feats, the full spell lists for Arcane, Divine, and Primal, and new and revised entries in the Rules Glossary.
 
 ## Document Links
@@ -181,6 +183,8 @@ It would be interesting to see this feature in reverse. Possibly as an extra par
 
 Overall, I don’t feel as though the Bard has changed significantly balance wise, but the usability is greatly improved. Bardic Inspiration is no longer eating significant action economy, is usable only when needed, and College of Lore really improves Bardic Inspiration. Their available spells are very similar, as many of the Evocation spells they used to enjoy and would no longer be able to take were shifted into other schools (such as Shatter). The Magical Secrets changes resulted in less off-class spells available at any given time but give access to prepare from the whole list in exchange, a noted improvement. I’m not sure if the emphasis on Bard as a Healer is a *change* in how Wizards perceives the class, or more of a clarification of their previous intent. I remember that at one point in 5e’s development, Bard was the mythical long-lost Arcane Half-Caster and capable of producing functional Gish-type characters. I was wondering if we’d have seen a shift back to that in OneD&D but it seems they went the other way.
 
+<a href="#top">Back to Top</a>
+
 <img src="https://vorpaldicepress.com/img/blog/ranger.png" id="ranger" alt="Drizzt, the drow Ranger jumps through the air with two swords slashing downward on a frost giant, with a huge black panther with claws and fangs bared jumping with him. Art by Taylor Jacobson, copyright Wizards of the Coast." />
 
 ## The Ranger Class
@@ -304,6 +308,8 @@ Things I’d change?
 
 **Enable All Fighting Styles.** Great Weapon Fighting on a Ranger is keen identity, and with Shields as a base Ranger proficiency, a lack of the Protection and Dueling Fighting Styles seems unnecessary. Just make them all available at 2nd level, instead of a limited selection and the remainder available at 4th level.
 
+<a href="#top">Back to Top</a>
+
 <img src="https://vorpaldicepress.com/img/blog/rogue.png" id="rogue" alt="A roguish character wearing various types of climbing gear and ropes hangs upside down in a cave with grappling hooks. Art by Jesper Ejsing, copyright Wizards of the Coast." />
 
 ## The Rogue Class
@@ -416,6 +422,8 @@ There is one change to the Rogue that is worthy of discussion, and it boils down
 - Should Sneak Attack return to normal?
 
 Everything else is either such a minor change or makes perfect sense. I’m in the camp of Sneak Attack should work off turn but be still limited to 1/round. And still exclude *Booming Blade* and *Green-Flame Blade*. Other than that, there isn’t much to say about the Rogue. Subtle Strikes is a good feature for the Rogue, and hits at a good level (I might have swapped it and Reliable Talent, personally). The change to Stroke of Luck to be able to guarantee a critical hit is fantastic for the Rogue, but also should work on any attack roll not just a miss.
+
+<a href="#top">Back to Top</a>
 
 ## Feats
 Stay tuned for Part 2, because this is a lot of content.
