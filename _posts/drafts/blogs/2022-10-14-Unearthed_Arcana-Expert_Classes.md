@@ -57,7 +57,17 @@ Alternatively, you can download my version of the PDF. This version is faithfull
 
 I’m going to detail my thoughts and assessments of the playtest packet here. Most of these things have already been discussed and debated to death but you might find some interesting takes in what I have to say about it.
 
-<img src="https://vorpaldicepress.com/img/blog/bard.png" alt="An elven bard stands smiling in a forest playing a harp while other creatures reel on the ground holding their ears in pain. Art by Eelis Kyttanen, copyright Wizards of the Coast." />
+You can jump to the sections below using these links:
+
+<a href="#bard">Bard</a>
+
+<a href="#ranger">Ranger</a>
+
+<a href="#rogue">Rogue</a>
+
+We'll be discussing Feats and the Rules Glossary in a Part 2, to come later.
+
+<img src="https://vorpaldicepress.com/img/blog/bard.png" id="bard" alt="An elven bard stands smiling in a forest playing a harp while other creatures reel on the ground holding their ears in pain. Art by Eelis Kyttanen, copyright Wizards of the Coast." />
 
 ## The Bard Class
 
@@ -171,7 +181,7 @@ It would be interesting to see this feature in reverse. Possibly as an extra par
 
 Overall, I don’t feel as though the Bard has changed significantly balance wise, but the usability is greatly improved. Bardic Inspiration is no longer eating significant action economy, is usable only when needed, and College of Lore really improves Bardic Inspiration. Their available spells are very similar, as many of the Evocation spells they used to enjoy and would no longer be able to take were shifted into other schools (such as Shatter). The Magical Secrets changes resulted in less off-class spells available at any given time but give access to prepare from the whole list in exchange, a noted improvement. I’m not sure if the emphasis on Bard as a Healer is a *change* in how Wizards perceives the class, or more of a clarification of their previous intent. I remember that at one point in 5e’s development, Bard was the mythical long-lost Arcane Half-Caster and capable of producing functional Gish-type characters. I was wondering if we’d have seen a shift back to that in OneD&D but it seems they went the other way.
 
-<img src="https://vorpaldicepress.com/img/blog/ranger.png" alt="Drizzt, the drow Ranger jumps through the air with two swords slashing downward on a frost giant, with a huge black panther with claws and fangs bared jumping with him. Art by Taylor Jacobson, copyright Wizards of the Coast." />
+<img src="https://vorpaldicepress.com/img/blog/ranger.png" id="ranger" alt="Drizzt, the drow Ranger jumps through the air with two swords slashing downward on a frost giant, with a huge black panther with claws and fangs bared jumping with him. Art by Taylor Jacobson, copyright Wizards of the Coast." />
 
 ## The Ranger Class
 
@@ -294,7 +304,7 @@ Things I’d change?
 
 **Enable All Fighting Styles.** Great Weapon Fighting on a Ranger is keen identity, and with Shields as a base Ranger proficiency, a lack of the Protection and Dueling Fighting Styles seems unnecessary. Just make them all available at 2nd level, instead of a limited selection and the remainder available at 4th level.
 
-<img src="https://vorpaldicepress.com/img/blog/rogue.png" alt="A roguish character wearing various types of climbing gear and ropes hangs upside down in a cave with grappling hooks. Art by Jesper Ejsing, copyright Wizards of the Coast." />
+<img src="https://vorpaldicepress.com/img/blog/rogue.png" id="rogue" alt="A roguish character wearing various types of climbing gear and ropes hangs upside down in a cave with grappling hooks. Art by Jesper Ejsing, copyright Wizards of the Coast." />
 
 ## The Rogue Class
 
