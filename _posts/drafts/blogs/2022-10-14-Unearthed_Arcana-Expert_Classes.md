@@ -9,6 +9,9 @@ main a {
 	font-style:	italic;
 	font-weight:	bold;
 }
+main img {
+	width: auto;
+}
 main .feature {
 	text-indent: 15px;
 }
