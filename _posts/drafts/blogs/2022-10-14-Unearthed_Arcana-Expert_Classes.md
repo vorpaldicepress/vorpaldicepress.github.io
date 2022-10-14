@@ -148,9 +148,8 @@ We get some **Bonus Proficiencies** (no longer just any three, but three specifi
 
 **Improved Cutting Words** is our new Level 10 feature. You can now deal damage when you burn someone with Cutting Words. I really like this. It’s a lot like Vicious Mockery but in a different package and feels very appropriate. When the Bardic Inspiration Die becomes a D12, and you have Cunning Inspiration, you’re going to get good Reaction-based damage out of this. For the first time ever, it’s a shame you only get Prof/SR uses of Bardic Inspiration. Although that’s very appropriate for combat as Prof/SR means you can use it every turn of every encounter and never run out of uses (on average); but you won’t be left with any uses for non-combat scenarios.
 
-<div class="editor">
-**Notes:** Improved Cutting Words models to me what could be a good alternative to Bardic Inspiration: Heal and Songs of Restoration.
-</div>
+
+Improved Cutting Words models to me what could be an interesting alternative to Bardic Inspiration: Heal and Songs of Restoration.
 
 > #### Songs of Inspiration
 >
@@ -317,19 +316,23 @@ One thing I will point out is that it’s possible that it is a mistake that was
 
 My opinion on it, regardless of being deliberate? It is a good change. Most new players won’t see until someone points out to them that you can Sneak Attack twice in a round if you use a Reaction to make an attack that qualifies. So, it removes the possibility of doubling a Rogue’s effectiveness through System Mastery (gaining knowledge about interactions in the system that aren’t readily called out in the text). Secondly, it makes the Rogue more balanced. What I mean by this is that at one table, a Rogue could be played for an entire campaign without ever getting a Reaction Sneak Attack. Perhaps they are a Shortbow Rogue and never encountered a chance to make an Opportunity Attack? Or, they were a Melee Rogue, but the DM didn’t have creatures flee combat or reposition once they were in base contact (I know more than a fair share of DMs who play this way). At another table, the Rogue could know about this and not just seek it out, demand of the other party members to invest in features like Dissonant Whispers or the Commander’s Strike maneuver to feed them opportunities to be two Rogues worth of damage output in a single Rogue. Those two tables are having extremely different experiences with a Rogue character at their table.
 
-Removing these two issues is a positive. However, I can understand that some players who are used to being able to seek out more Sneak Attack damage are going to feel dissatisfied with the nerf. Whether I agree or not, it would be nice to see Wizards of the Coast address the issue. Especially because the “Ready” action to fire a shot when someone leaves cover, or to make a melee attack against a spellcaster you have pinned if they try to cast a spell, was a great image.
+Removing these two issues is a positive. However, I can understand that some players who are used to being able to seek out more Sneak Attack damage are going to feel dissatisfied with the nerf. I personally don't think the Rogue needs this, based on the math.
+
+Whether I agree or not, it would be nice to see Wizards of the Coast address the issue. 
 
 You can’t just change the wording to “Once each round” or any variation of that, because its not the Attack action being taken on those off turns, it’s a Reaction. If the door is intended to be closed on *Green-Flame Blade* and *Booming Blade*, then you need another option. The simplest would be “When you make a Weapon Attack that is not part of the Magic action, you can deal extra damage to one creature you hit with an Attack Roll if [..].” and add somewhere the text that equates to “Once each round” (such wording only works if Round is defined properly, which it is not). There are longer phrases that can be used but Wizards getting around to properly defining a Round might be ideal.
 
 If getting Sneak Attack twice in a round is an important part of Rogue balance and they revert to the old wording, Wizards needs to communicate that to the player through the Rogue’s mechanics. Two examples of this might be: Give them a Reaction Attack they can perform under certain criteria or add a third header under Sneak Attack like “Reactive. Your Attack Roll is being made as part of a Reaction.” This works to communicate clearly to a reader that this is an option, and that you’re expected to seek it out.
 
-One thing I find interesting is how closely balanced a Two-Weapon Fighting Rogue and Two-Weapon Fighting Ranger is in this pack. Using just their basic abilities (Two-Weapon Fighting, two Shortswords, and Hunter’s Mark for the Ranger and Sneak Attack for the Rogue) the Ranger is dealing 42 average damage over three attacks, and the Rogue is dealing 47 average damage over two attacks. The Rogue is also likely to have advantage on these attacks due to Subtle Strikes. This is very equal. Giving the Rogue a chance to Sneak Attack twice in a round sharply increases their damage output on turns where they pull that off.
+Another aspect of this is the "off turn Sneak Attack" but not necessarily two Sneak Attacks in a round. Taking the Ready action to fire a shot when someone leaves cover, or to make a melee attack against a spellcaster you have pinned if they try to cast a spell, is a great image and Rogues deserve that..
+
+One thing I find interesting is how closely balanced a Two-Weapon Fighting Rogue and Two-Weapon Fighting Ranger is in this pack at 20th level. Using just their basic abilities (Two-Weapon Fighting and two Shortswords; and Hunter’s Mark for the Ranger and Sneak Attack for the Rogue) the Ranger is dealing 42 average damage over three attacks, and the Rogue is dealing 47 average damage over two attacks. The Rogue is also likely to have advantage on these attacks due to Subtle Strikes. This is very equal. Giving the Rogue a chance to Sneak Attack twice in a round sharply increases their damage output on turns where they pull that off, putting them way far ahead.
 
 Food for thought to anyone who feels the Rogue underperforms without the second Sneak Attack each round.
 
 #### Thieves’ Cant
 
-Or can they? Same as before but you get a Language as well. I know Jeremy Crawford explains the thematic behind this in the video, but I don’t see it. I would have loved for this to be “You know Thieves’ Cant and *the sign language version* of one other language of your choice, which you choose from the Standard Languages and Rare Languages tables.”
+Or can they? Same as before but you get a Language as well. I know Jeremy Crawford explains the thematic behind this in the video, but I don’t see it. I would have loved for this to be “You know Thieves’ Cant and *the sign language version* of one other language of your choice, which you choose from the Standard Languages and Rare Languages tables.” since silent communication is key Rogue imagery.
 
 #### Cunning Action
 
@@ -381,7 +384,9 @@ The Thief subclass is, in my opinion, almost exactly the same.
 
 **Use Magic Device** has been moved to 10th level instead of 13th. You can’t ignore the restrictions of magic items anymore which is a bit of a bummer, but you get an additional Attunement slot, can squeeze extra charges out of a magic item, and the *Spell Scroll* use is specifically listed here. I think I understand the theme of Use Magic Device. It’s one part Indiana Jones and one part ‘Cat Burglar’ gadgetry. I guess making the Thief a Pseudo-Caster makes sense.
 
-<div class="editor">A note, and this is not new to OneD&D as it’s true in 5E as well, is that a Thief is likely to take Arcana Expertise and will have a +8 bonus to these checks (assuming 0 INT) when you get this feature, giving you an extremely high chance to succeed on casting from the scroll. With even +1 INT, you have a 50% chance of succeeding on a 9th-level spell scroll. But none of that matters because next level you get Reliable Talent, letting you treat a d20 roll of 9 or lower as a 10. With Arcana Expertise and a +1 INT mod, this check becomes entirely irrelevant and a non-feature. Just an interesting (to me) thing to remind people of with regard to this feature, since it now calls out *Spell Scrolls* specifically.</div>
+<div class="editor">
+A note, and this is not new to OneD&D as it’s true in 5E as well, is that a Thief is likely to take Arcana Expertise and will have a +8 bonus to these checks (assuming 0 INT) when you get this feature, giving you an extremely high chance to succeed on casting from the scroll. With even +1 INT, you have a 50% chance of succeeding on a 9th-level spell scroll. But none of that matters because next level you get Reliable Talent, letting you treat a d20 roll of 9 or lower as a 10. With Arcana Expertise and a +1 INT mod, this check becomes entirely irrelevant and a non-feature. Just an interesting (to me) thing to remind people of with regard to this feature, since it now calls out *Spell Scrolls* specifically.
+</div>
 
 Last we have **Thief’s Reflexes**. Instead of letting you take a second turn on the first round of every combat, you now get a second Bonus Action use which must be used for Cunning Action. Back when Baldur’s Gate 3’s Early Access released, the first character I tried was a Thief Rogue. Their 3rd-level feature was Extra Bonus Action. I wonder if there was any cross informing here?
 
