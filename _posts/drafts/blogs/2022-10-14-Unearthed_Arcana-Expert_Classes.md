@@ -43,7 +43,7 @@ main .editor {
 }
 </style>
 
-A few weeks ago, Wizards of the Coast dropped the newest playtest packet for #OneD&D, Expert Classes. This playtest packet includes the Bard, Ranger, and Rogue classes (each with one subclass); as well as new feats, the full spell lists for Arcane, Divine, and Primal, and new and revised entries in the Rules Glossary.
+A few weeks ago, Wizards of the Coast dropped the newest playtest packet for OneD&D, *Unearthed Arcana: Expert Classes*. This playtest packet includes the Bard, Ranger, and Rogue classes (each with one subclass); as well as new feats, the full spell lists for Arcane, Divine, and Primal, and new and revised entries in the Rules Glossary.
 
 ## Document Links
 
@@ -52,7 +52,7 @@ You can download the Playtest Packet from D&D Beyond <a href="https://www.dndbey
 Alternatively, you can download my version of the PDF. This version is faithfully remade but includes hyperlinks for the underlined keywords, bookmarks, and a subtle background to ensure it doesn't get confused with the original document.
 
 <center>
-### <a href="https://drive.google.com/file/d/10JO0rRNlAf-EFOywThOgxnAblmSHL4ST/view?usp=sharing">Unearthed Arcana - Expert Classes (Accessible PDF)</a>
+<a href="https://drive.google.com/file/d/10JO0rRNlAf-EFOywThOgxnAblmSHL4ST/view?usp=sharing">Unearthed Arcana - Expert Classes (Accessible PDF)</a>
 </center>
 
 I’m going to detail my thoughts and assessments of the playtest packet here. Most of these things have already been discussed and debated to death but you might find some interesting takes in what I have to say about it.
