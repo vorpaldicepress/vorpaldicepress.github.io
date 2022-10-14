@@ -45,11 +45,15 @@ main .editor {
 
 A few weeks ago, Wizards of the Coast dropped the newest playtest packet for #OneD&D, Expert Classes. This playtest packet includes the Bard, Ranger, and Rogue classes (each with one subclass); as well as new feats, the full spell lists for Arcane, Divine, and Primal, and new and revised entries in the Rules Glossary.
 
+## Document Links
+
 You can download the Playtest Packet from D&D Beyond <a href="https://www.dndbeyond.com/sources/one-dnd/expert-classes">here</a>
 
 Alternatively, you can download my version of the PDF. This version is faithfully remade but includes hyperlinks for the underlined keywords, bookmarks, and a subtle background to ensure it doesn't get confused with the original document.
 
-## <a href="https://drive.google.com/file/d/10JO0rRNlAf-EFOywThOgxnAblmSHL4ST/view?usp=sharing">Unearthed Arcana - Expert Classes (Accessible PDF)</a>
+<center>
+### <a href="https://drive.google.com/file/d/10JO0rRNlAf-EFOywThOgxnAblmSHL4ST/view?usp=sharing">Unearthed Arcana - Expert Classes (Accessible PDF)</a>
+</center>
 
 I’m going to detail my thoughts and assessments of the playtest packet here. Most of these things have already been discussed and debated to death but you might find some interesting takes in what I have to say about it.
 
@@ -73,7 +77,9 @@ On that same note, the addition of a 10th-level subclass feature is just about t
 
 Bardic Inspiration has been changed. It is no longer a Bonus Action to apply a 10-minute buff to a character, but instead a reaction to immediately boost a failed d20 Test or heal a creature after they’ve taken damage.
 
-<div class="editor"> **Note on Senses:** Why does Bardic Inspiration require the Bard to be able to see or hear the target, but doesn’t require the target to be able to see or hear the Bard?  The flavor text is “You supernaturally inspire others through words, music, or dance.” How are they being inspired if they can’t see or hear you? I’d go so far as to say I think this is a mistake, and the intent was the other way around (the old Bardic Inspiration worked this way). If the intent is that it is the target that requires senses of the Bard to benefit, then the Heal option works better for me. However—right now—Bardic Inspiration can be used when a creature is reduced to 0 hit points to immediately have them “yo-yo” back up. I think this is a problem that exists in 5E and is now being reinforced and made even more prevalent with this Bardic Inspiration option.</div>
+<div class="editor">
+**Note on Senses:** Why does Bardic Inspiration require the Bard to be able to see or hear the target, but doesn’t require the target to be able to see or hear the Bard?  The flavor text is “You supernaturally inspire others through words, music, or dance.” How are they being inspired if they can’t see or hear you? I’d go so far as to say I think this is a mistake, and the intent was the other way around (the old Bardic Inspiration worked this way). If the intent is that it is the target that requires senses of the Bard to benefit, then the Heal option works better for me. However—right now—Bardic Inspiration can be used when a creature is reduced to 0 hit points to immediately have them “yo-yo” back up. I think this is a problem that exists in 5E and is now being reinforced and made even more prevalent with this Bardic Inspiration option.
+</div>
 
 I both like and dislike aspects of the new Bardic Inspiration. I know a lot of players who ran Bardic Inspiration like this, because they’d forget to buff in advance or be caught unaware by combat and not have a chance to use BI on the first round. Most DMs I’ve played with have been permissive in applying BI retroactively, so codifying it as a Reaction supplants that issue. I don’t love that Healing is built directly into Bardic Inspiration; but I will concede that Wizards obviously has different opinions on the Bard’s role in a party than I. The new Song[s] of Rest[oration] grants healing spells to the Bard as additional spells that they don’t have to prepare and don’t count against their prepared spells. The Bard is being hardcoded as a Healer role for parties. Do I want this for the Bard? No. A “College of Physicians” subclass that acts as a Healer? Absolutely. But it is not core bard identity to me. The Bard has always had top-tier narrative identity and bottom-tier mechanical identity. Giving them lots of Spellcasting Utility and bonus prepared spells through Songs of Restoration and Magical Secrets gives them a solid mechanical identity that doesn’t hinder their narrative one. I’m okay with this direction, ultimately.
 
