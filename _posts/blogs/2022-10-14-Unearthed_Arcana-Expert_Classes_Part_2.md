@@ -68,7 +68,7 @@ Now, they could have planned their feats out in advance and taken three sequenti
 
 A quick and easy change would be to have a general rule: “If you take a feat that increases an ability score that is already at 20, you can choose any other ability score to increase instead.”
 
-But a better change might have just been to divorce Ability Scores and Feats completely. As <a href=”https://twitter.com/ThinkingDM”>@ThinkingDM</a> once suggested, have ability scores increase every other level by 1 and consider it basic ‘character’ progression, like Proficiency Bonus. Don’t tie it to Feats at all. Let Feats be their own thing. There is significant design freedom gained by doing so.
+But a better change might have just been to divorce Ability Scores and Feats completely. As @ThinkingDM once suggested, have ability scores increase every other level by 1 and consider it basic ‘character’ progression, like Proficiency Bonus. Don’t tie it to Feats at all. Let Feats be their own thing. There is significant design freedom gained by doing so.
 
 ### Ability Score Improvement
 
