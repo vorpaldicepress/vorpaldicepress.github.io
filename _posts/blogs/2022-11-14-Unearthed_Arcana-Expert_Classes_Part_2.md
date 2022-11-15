@@ -54,6 +54,16 @@ No, seriously. Sorry that this has taken so long to get out! Life and all that.
 
 Let’s talk about FEATS.
 
+## Document Links
+
+You can download the Playtest Packet from D&D Beyond <a href="https://www.dndbeyond.com/sources/one-dnd/expert-classes">here</a>
+
+Alternatively, you can download my version of the PDF. This version is faithfully remade but includes hyperlinks for the underlined keywords, bookmarks, and a subtle background to ensure it doesn't get confused with the original document.
+
+<center>
+<a href="https://drive.google.com/file/d/10JO0rRNlAf-EFOywThOgxnAblmSHL4ST/view?usp=sharing">Unearthed Arcana - Expert Classes (Accessible PDF)</a>
+</center>
+
 ## Feats
 
 The feat section is full of content so I’m going to list each feat with a brief description of my thoughts. I’ll be grouping all the Epic Boon Feats into one section, as my thoughts are basically the same on all of them.
