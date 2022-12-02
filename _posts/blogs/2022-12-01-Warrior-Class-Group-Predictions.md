@@ -151,7 +151,9 @@ Here's a few examples:
 > **Vaulting Strike**
 >
 > **Action Type:** Jump
+>
 > **Range:** Reach
+>
 > **Weapon Required:** Any weapon with the Reach property
 >
 > While taking the Jump action, you use your weapon to propel yourself into a vaulting strike. The DC for the Strength Check becomes 15, and on a successful check, you can clear up to twice the normal distance and make a single Weapon Attack against a creature after landing.
@@ -163,7 +165,9 @@ or maybe
 > **Cleave**
 >
 > **Action Type:** Attack Action
+>
 > **Range:** Reach
+>
 > **Weapon Required:** Any weapon with the Two-Handed property
 >
 > As part of an attack with a Two-Handed weapon, you can cleave through into another creature of your choice within 5 feet of the target and also within your reach. Use the result of the original Attack Roll to determine if you hit the new target. On a successful hit, they take damage equal to your Strength modifier.
