@@ -85,7 +85,7 @@ hr {
 }
 #reviews a, #blogs a {
   text-decoration: none;
-  color: #743286;
+  color: #7157a5;
 }
 
 #wip {
@@ -133,7 +133,7 @@ nav {
   height: 58px;
   box-shadow: 0px -5px 20px 10px rgba(35, 4, 43, 0.4);
   font-size: 25px;
-  font-family: modesto-condensed, serif;
+  font-family: modesto-poster, serif;
   background: white;
 }
 nav a {
@@ -154,12 +154,12 @@ nav > .width-wrapper > div {
   text-align: center;
   line-height: 50px;
   height: 58px;
-  border-bottom: 0px solid #743286;
+  border-bottom: 0px solid #7157a5;
   transition: border 0.1s linear 0.05s;
   margin-left: -1px; /* hack fix for right border putting things off 1px visually */
 }
   nav > .width-wrapper > div:hover {
-    border-bottom: 4px solid #743286;
+    border-bottom: 4px solid #7157a5;
   }
   nav > .width-wrapper > div:first-child {
     flex: 3 0;
@@ -173,7 +173,7 @@ nav > .width-wrapper > div {
   display: flex;
   height: 50px;
   font-size: 35px;
-  color: #743286;
+  color: #7157a5;
 }
 #logo img { padding-right: 10px; }
 
@@ -478,7 +478,7 @@ footer:hover > .site-logo {
   right: -250px;
   min-width: 100%;
   min-height: 100%;
-  box-shadow: 0px 100px 90px -50px #743286 inset, 0px 55px 25px -45px #743286 inset;
+  box-shadow: 0px 100px 90px -50px #7157a5 inset, 0px 55px 25px -45px #7157a5 inset;
 }
 #footer-content:after {
     content: '';
@@ -862,8 +862,8 @@ input[type=search]{
   font-size: 1.2em;
   padding: 5px;
   margin-left: -5px;
-  background: #743286;
-  border: 1px solid #743286;
+  background: #7157a5;
+  border: 1px solid #7157a5;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   color: white;
